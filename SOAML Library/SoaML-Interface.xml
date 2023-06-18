@@ -35,15 +35,15 @@
     "title": "Simple Provider Interface"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;lt;div&amp;gt;role: type&amp;lt;/div&amp;gt;\" style=\"rounded=0;whiteSpace=wrap;html=1;align=center;container=1;collapsible=0;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"-2.2737367544323206e-13\" width=\"155\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"131\" y=\"13.33\" width=\"15\" height=\"13.33\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 155,
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"role:type\" style=\"shape=stencil(tZTdDoIgFICfhtvGz9q6bVTvQXZMJoED+nv7UHSFqWtNb9jOOfM7H8IBMe4KUQGiuEBshyilOCwhvMeQ4DYWroLMx+RNWCmOCmLFeWtKuMuTbxFSF2Clr6tsj/AW1UyMGM+M1gEijXZJ5aMeYELq8C1+RFjb/plEVeBfwINtJWMW0cPv2NV6GTBZyDfFdvaz+84HTo3JUgc3G5j8j2U8ZMYuN+NHkZVna676NChj67mavu/9YezN6qDPSFfGc2NhQieXSsWRnviBoJSsHLy1N+mprHveiTYZ0e7go92bfX3pN9n4ijWJFw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
     "h": 40,
     "aspect": "fixed",
     "title": "Role With Interface"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;lt;div align=&amp;quot;left&amp;quot;&amp;gt;role: type&amp;lt;/div&amp;gt;\" style=\"rounded=0;whiteSpace=wrap;html=1;align=left;container=1;collapsible=0;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"82\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 82,
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"role:type\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"120\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 120,
     "h": 40,
     "aspect": "fixed",
     "title": "Role"
