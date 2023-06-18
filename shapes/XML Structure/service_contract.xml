@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-06-18T10:33:14.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.4.0" etag="CNUNJyNwaNhRb1LCmiW-">
+  <diagram name="Page-1" id="oUCphIRXysmxwaa3vjyH">
+    <mxGraphModel dx="1434" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="shape=stencil(lVJbCsMgEDyN/6IU+lvS9h4m2TQSG0Vtkt6+PiLEpBYKIuzMOjujIlqZnilABPeIXhEhBGO3u3qONU01MwoaG8GJac5qAZExVssBZt7aVYOPPWhuPUtvCF9cj1+0qlkzPLR8jW1GJBqE4Mp4M0sUWke/s2pvbG8ckfturEMKk2nVSQ0/LHVciJjvi3JqUswnPxCJfsppk4mc81Sngu1cQ/Bxq/GPRMhfsOievxQuHDvcTkDjlwnABw==);whiteSpace=wrap;html=1;dashed=1;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;noLabel=0;labelPadding=0;metaEdit=0;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="630" height="370" as="geometry">
+            <mxRectangle x="190" y="60" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="&lt;div&gt;&amp;lt;&amp;lt;ServiceContract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Name&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2">
+          <mxGeometry x="186.66666666666669" y="23.125" width="245.00000000000003" height="46.25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
