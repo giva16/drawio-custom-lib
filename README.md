@@ -5,6 +5,7 @@
 # 1 - Table of Notations
 
 ## 1.1 - Service Interface / Simple Interface Diagram Notations
+
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
 | <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
@@ -22,24 +23,18 @@
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
 
 ## 1.2 - Services Architecture Diagram Notations
-| Notation                                                                                                           |     Name      | Description |
-| ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
-| <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-interface-cport.png" alt="Interface with Consumer Interface" width="200"/> |   centered    |             |
-| <img src="Images/Notations/Interface/si-interface-pport.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
-| <img src="Images/Notations/Interface/simple-interface-c.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
-| <img src="Images/Notations/Interface/simple-interface-p.png" alt="Service Interface" width="200"/>                 |   centered    |             |
-| <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Service Interface" width="200"/>          | right-aligned |             |
-| <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Service Interface" width="200"/>          | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Service Interface" width="200"/>         |   centered    |             |
-| <img src="Images/Notations/service-channel.png" alt="Service Interface" width="200"/>                              | right-aligned |             |
-| <img src="Images/Notations/Interface/realization.png" alt="Service Interface" width="200"/>                        | right-aligned |             |
-| <img src="Images/Notations/Interface/usage.png" alt="Service Interface" width="200"/>                              | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
-| <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
 
+| Notation                                                                                                       |     Name      | Description |
+| -------------------------------------------------------------------------------------------------------------- | :-----------: | ----------- |
+| <img src="Images/Notations/Services Architecture/SA.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
+| <img src="Images/Notations/Services Architecture/SC.png" alt="Interface with Consumer Interface" width="200"/> |   centered    |             |
+| <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
+| <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
+| <img src="Images/Notations/Services Architecture/PR.png" alt="Service Interface" width="200"/>                 |   centered    |             |
+| <img src="Images/Notations/Services Architecture/CR.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
 
 ## 1.3 - Service Contract Diagram Notations
+
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
 | <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
@@ -56,8 +51,8 @@
 | <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
 
-
 ## 1.4 - Participant Diagram Notations
+
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
 | <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
@@ -75,6 +70,7 @@
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
 
 ## 1.5 - Miscellaneous Notations
+
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
 | <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
