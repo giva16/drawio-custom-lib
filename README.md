@@ -1,4 +1,4 @@
-# # SoaML Extension to Diagrams.net
+# SoaML Extension to Diagrams.net
 
 ## Click<a href="https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-General.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-Interface.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-Participant.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-ServicesArchitecture.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-ServiceContract.xml"> here</a> to load the SoaML Diagrams to diagrams.net
 
@@ -30,8 +30,7 @@
 | <img src="Images/Notations/Services Architecture/SC.png" alt="Interface with Consumer Interface" width="200"/> |   centered    |             |
 | <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
 | <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
-| <img src="Images/Notations/Services Architecture/PR.png" alt="Service Interface" width="200"/>                 |   centered    |             |
-| <img src="Images/Notations/Services Architecture/CR.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
+| <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       |   centered    |             |
 
 ## 1.3 - Service Contract Diagram Notations
 
