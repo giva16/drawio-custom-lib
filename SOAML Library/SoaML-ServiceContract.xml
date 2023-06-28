@@ -11,21 +11,42 @@
     "w": 160,
     "h": 40,
     "aspect": "fixed",
-    "title": "Participant"
+    "title": "Participant With Provided Interface"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Interface&amp;amp;gt;&amp;amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"ServiceCallRequired()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"200\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;resizeHeight=1;resizeWidth=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184\" y=\"8\" width=\"14\" height=\"14\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"role:type\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"120\" y=\"10\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 140,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Participant With Required Interface"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Provider&amp;amp;gt;&amp;amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"&amp;amp;lt;&amp;amp;lt;signal&amp;amp;gt;&amp;amp;gt;Signal1()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"200\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;resizeHeight=1;resizeWidth=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184\" y=\"8\" width=\"14\" height=\"14\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 200,
     "h": 60,
     "aspect": "fixed",
-    "title": "Interface With Service Port"
+    "title": "Provider Interface"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"201\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Interface&amp;amp;gt;&amp;amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"201\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"ServiceSignalRequired()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"201\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184.92000000000002\" y=\"7\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"201\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Consumer&amp;amp;gt;&amp;amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"201\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"&amp;amp;lt;&amp;amp;lt;signal&amp;amp;gt;&amp;amp;gt;Signal1()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"201\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184.92000000000002\" y=\"7\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 201,
     "h": 60,
     "aspect": "fixed",
-    "title": "Interface With Request Port"
+    "title": "Cosnumer Interface"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;amp;lt;&amp;amp;lt;ServiceContract&amp;amp;gt;&amp;amp;gt;&amp;lt;br&amp;gt;&amp;lt;div style=&amp;quot;font-size: 13px;&amp;quot;&amp;gt;&amp;lt;b&amp;gt;:serviceContractName&amp;lt;/b&amp;gt;&amp;lt;/div&amp;gt;\" style=\"ellipse;whiteSpace=wrap;html=1;dashed=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"210\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 210,
+    "h": 60,
+    "aspect": "fixed",
+    "title": "Internal Service Contract"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;amp;lt;&amp;amp;lt;ServiceChannel&amp;amp;gt;&amp;amp;gt;\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry x=\"-0.0625\" y=\"-2\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"5\" y=\"-12\" as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 1,
+    "aspect": "fixed",
+    "title": "Service Channel"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;amp;lt;&amp;amp;lt;usage&amp;amp;gt;&amp;amp;gt;\" style=\"html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;elbow=vertical;curved=0;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"130\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
@@ -33,17 +54,5 @@
     "h": 1,
     "aspect": "fixed",
     "title": "Usage Bind"
-  },
-  {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"ServiceCallRequired()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"200\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 200,
-    "h": 30,
-    "aspect": "fixed"
-  },
-  {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"ServiceSignalRequired()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"201\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 201,
-    "h": 30,
-    "aspect": "fixed"
   }
 ]</mxlibrary>
