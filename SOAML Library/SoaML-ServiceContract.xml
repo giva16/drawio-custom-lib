@@ -35,6 +35,20 @@
     "title": "Cosnumer Interface"
   },
   {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Consumer&amp;amp;gt;&amp;amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;role:type&amp;lt;br&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/div&amp;gt;\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1.1368683772161603e-13\" width=\"207.36\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 207.36,
+    "h": 60,
+    "aspect": "fixed",
+    "title": "Consumer (stereotyped)"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Provider&amp;amp;gt;&amp;amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;role:type&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"5.684341886080802e-14\" width=\"200\" height=\"48.18\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 200,
+    "h": 48.18,
+    "aspect": "fixed",
+    "title": "Provider (stereotyped)"
+  },
+  {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;amp;lt;&amp;amp;lt;ServiceContract&amp;amp;gt;&amp;amp;gt;&amp;lt;br&amp;gt;&amp;lt;div style=&amp;quot;font-size: 13px;&amp;quot;&amp;gt;&amp;lt;b&amp;gt;:serviceContractName&amp;lt;/b&amp;gt;&amp;lt;/div&amp;gt;\" style=\"ellipse;whiteSpace=wrap;html=1;dashed=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"210\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 210,
     "h": 60,
