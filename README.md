@@ -31,7 +31,7 @@ The tutorials are designed to provide the user with a step-by-step guide on how 
 
    This part of the tutorial will guide the user on how to set up the SoaML libraries in the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App.
 
-2. **Drawing SoaML Diagrams:**
+2. **Drawing SoaML Diagrams in Diagrams.net:**
 
    This part of the tutorial will guide the user on how to draw SoaML diagrams using the SoaML libraries. Part 2 of the tutorial will guide the user on how to draw the SoaML diagrams mentioned in section 1.3. The tutorials will also provide the user with a brief explanation of the syntax and semantics of each SoaML diagram, based on the <a>OMG SoaML specification</a>. Moreover, the SoaML diagrams drawn in the tutorial will use examples included in the <a>OMG SoaML specification</a> which involves a Service Network involving 3 "B2B" services comprising of a purchasing service, a shipping service, and a ship status service. **Video tutorials** will on drawing the Service Contract Diagram and the Services Architecture Diagram will also be provided, using the "CityCar2Go" B2B Service Network and its components as an example. The "CityCar2Go" B2B Service Network is an example taken from the "Service Oriented Design" course at the Vrije Universiteit Amsterdam.
 
@@ -68,6 +68,17 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
    <img src="Images/Tutorial Images/Setting Up Library/6.png">
 
    **Happy Drawing!**
+
+## 3 - Drawing SoaML Diagrams in diagrams.net
+
+### 3.1 - Service Interface Diagram
+
+#### What is a Service Interface Diagram?
+
+**Test**:
+<img src="Images/Tutorial Images/Services Architecture/1.gif">
+
+#### How to draw a Service Interface Diagram in diagrams.net
 
 # 1 - Table of Notations
 
