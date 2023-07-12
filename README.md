@@ -5,11 +5,11 @@
 ### 1.1 - What is SoaML?
 
 Service Oriented Architecture Modeling Language (SoaML) is a modeling language that enables us to architect and model Services Oriented Architecture (SOA) systems.
-SoaML extends the Unified Modeling Language (UML) profile to provide the modeling capabilities to describe how people, organizations, and different components of a system provide and use services in order to achieve a common business goal within a community, or a distributed computing environment. The SoaML specification is created and maintained by the <a>Object Management Group (OMG)</a>.Furthermore,
+SoaML extends the Unified Modeling Language (UML) profile to provide the modeling capabilities to describe how people, organizations, and different components of a system provide and use services in order to achieve a common business goal within a community, or a distributed computing environment. The SoaML specification is created and maintained by the <a href="https://www.omg.org/">Object Management Group (OMG)</a>.Furthermore,
 
 ### 1.2 - What is the SoaML Extension for Diagrams.net?
 
-This extension is simply a collection of SoaML libraries that enables the user to draw SoaML diagrams within the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App created by JGraph Ltd. All syntax and semantics of the SoaML diagrams within this extension are based on the <a>OMG SoaML specification</a>. The extension was developed as part of my bachelor's thesis at the Vrije Universiteit Amsterdam and is specifically designed to provide students of the <a>Service Oriented Design course</a> at the Vrije Universiteit Amsterdam with a lightweight open-source tool to draw SoaML diagrams for their course assignments. However, this extension is open for use and modification by anyone who is interested in modeling SOA systems.
+This extension is simply a collection of SoaML libraries that enables the user to draw SoaML diagrams within the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App created by JGraph Ltd. All syntax and semantics of the SoaML diagrams within this extension are based on the <a href="http://www.omg.org/spec/SoaML/">OMG SoaML specification</a>. The extension was developed as part of my bachelor's thesis at the Vrije Universiteit Amsterdam and is specifically designed to provide students of the <a href="https://studiegids.vu.nl/EN/courses/2022-2023/X_405061#/">Service Oriented Design course</a> run by <a href="https://research.vu.nl/en/persons/patricia-lago">prof. dr. Patricia Lago</a> at the Vrije Universiteit Amsterdam, with a lightweight open-source tool to draw SoaML diagrams for their course assignments. However, this extension is open for use and modification by anyone who is interested in modeling SOA systems.
 
 ### 1.3 - What are the SoaML Libraries?
 
@@ -22,6 +22,20 @@ This extension provides the user with a colleciton of 5 SoaML libraries, with ea
 5. **SoaML-Templates:** Examples of the afformentioned diagrams.
 
 These libraries provide the user with the ability to describe SOA systems from different prespectives that enable the user to understand how different components of a SOA System interact with one another to achieve a business goal.
+
+### 1.4 What to expect from the Tutorials?
+
+The tutorials are designed to provide the user with a step-by-step guide on how to draw SoaML diagrams using the SoaML libraries. The tutorials are divided into two parts:
+
+1. **Setting Up the SoaML Extension for Diagrams.net:**
+
+   This part of the tutorial will guide the user on how to set up the SoaML libraries in the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App.
+
+2. **Drawing SoaML Diagrams:**
+
+   This part of the tutorial will guide the user on how to draw SoaML diagrams using the SoaML libraries. Part 2 of the tutorial will guide the user on how to draw the SoaML diagrams mentioned in section 1.3. The tutorials will also provide the user with a brief explanation of the syntax and semantics of each SoaML diagram, based on the <a>OMG SoaML specification</a>. Moreover, the SoaML diagrams drawn in the tutorial will use examples included in the <a>OMG SoaML specification</a> which involves a Service Network involving 3 "B2B" services comprising of a purchasing service, a shipping service, and a ship status service. **Video tutorials** will on drawing the Service Contract Diagram and the Services Architecture Diagram will also be provided, using the "CityCar2Go" B2B Service Network and its components as an example. The "CityCar2Go" B2B Service Network is an example taken from the "Service Oriented Design" course at the Vrije Universiteit Amsterdam.
+
+Throughout the tutorials, GIF animations will be used to provide the user with additional visual guidance on how to setup the SoaML extension and draw SoaML diagrams using the SoaML libraries.<br>**Note:** the GIF animations in full screen by clicking will provide a better quality viewing experience.
 
 ## 2 - Setting Up the SoaML Extension for Diagrams.net
 
