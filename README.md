@@ -35,7 +35,23 @@ These libraries provide the user with the ability to describe SOA systems from d
 
 2. Extract the zip file to a folder of your choice.
 
-3. Open the <a>diagrams.net</a> web application or the <a>draw.io</a> desktop App.
+3. Open the <a href="https://app.diagrams.net/">diagrams.net</a> web application or the draw.io desktop App.
+
+4. Create a new blank diagram by clicking "Create New Diagram" > Select "Blank Diagram" > Click "Create".
+   <img src="Images/Tutorial Images/Setting Up Library/3.gif">
+5. Give your new diagram a name on the top left corner of the editor.
+   <img src="Images/Tutorial Images/Setting Up Library/4.gif">
+
+6.1 **To Load the library one by one** Click on "File" > "Open Library From" > "Device..." > Open the "SOAML Library" folder that you extracted in step 2 > Select the XML file of the library you want to load > Click "Open".
+
+6.2 **To Load multiple or all libraries at once** Open the "SOAML Library" folder that you extracted in step 2 > Select all the XML files of the libraries you want to load > Drag and drop the selected files into the editor.
+<img src="Images/Tutorial Images/Setting Up Library/5.gif">
+
+7. You can now view all the SoaML elements in the library panel on the left side of the editor and you have everything you need to start drawing SoaML diagrams.
+
+   <img src="Images/Tutorial Images/Setting Up Library/6.png">
+
+   **Happy Drawing!**
 
 # 1 - Table of Notations
 
