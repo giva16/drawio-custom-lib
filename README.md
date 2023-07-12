@@ -31,7 +31,7 @@ These libraries provide the user with the ability to describe SOA systems from d
 
 ### **Method 2 (Allows User to Modify Libraries and Templates): Downloading the repository and importing the libraries package to diagrams.net/draw.io desktop:**
 
-1. Click on the link download the library package: <button><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/giva16/drawio-custom-lib/tree/main/SOAML%20Library" action="download">Download Library Package</a></button>
+1. Click on the link download the library package: <button><a href="https://download-directory.github.io?url=https://github.com/giva16/drawio-custom-lib/tree/main/SOAML%20Library" download>Download Library Package</a></button>
 
 2. Extract the zip file to a folder of your choice.
 
