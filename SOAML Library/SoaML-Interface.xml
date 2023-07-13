@@ -11,49 +11,35 @@
     "w": 201,
     "h": 60,
     "aspect": "fixed",
-    "title": "Consumer Interface"
+    "title": "Required Interface"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;amp;lt;&amp;amp;lt;Provider&amp;amp;gt;&amp;amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"&amp;amp;lt;&amp;amp;lt;signal&amp;amp;gt;&amp;amp;gt;Signal1()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"200\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;resizeHeight=1;resizeWidth=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184\" y=\"8\" width=\"14\" height=\"14\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 200,
     "h": 60,
     "aspect": "fixed",
-    "title": "Provider Interface"
-  },
-  {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"200\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"&amp;amp;lt;&amp;amp;lt;signal&amp;amp;gt;&amp;amp;gt;Signal1()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"200\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;resizeHeight=1;resizeWidth=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184\" y=\"8\" width=\"14\" height=\"14\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 200,
-    "h": 60,
-    "aspect": "fixed",
-    "title": "Interface with Provided Interface"
-  },
-  {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"201\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;div&amp;gt;&amp;lt;b&amp;gt;Name&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;\" style=\"swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"201\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"&amp;amp;lt;&amp;amp;lt;signal&amp;amp;gt;&amp;amp;gt;Signal1()\" style=\"text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry y=\"30\" width=\"201\" height=\"30\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"184.92000000000002\" y=\"7\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 201,
-    "h": 60,
-    "aspect": "fixed",
-    "title": "Interface with Required Interface"
+    "title": "Provided Interface"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"role:type\" style=\"shape=stencil(tZTdDoIgFICfhtvGz9q6bVTvQXZMJoED+nv7UHSFqWtNb9jOOfM7H8IBMe4KUQGiuEBshyilOCwhvMeQ4DYWroLMx+RNWCmOCmLFeWtKuMuTbxFSF2Clr6tsj/AW1UyMGM+M1gEijXZJ5aMeYELq8C1+RFjb/plEVeBfwINtJWMW0cPv2NV6GTBZyDfFdvaz+84HTo3JUgc3G5j8j2U8ZMYuN+NHkZVna676NChj67mavu/9YezN6qDPSFfGc2NhQieXSsWRnviBoJSsHLy1N+mprHveiTYZ0e7go92bfX3pN9n4ijWJFw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 160,
     "h": 40,
     "aspect": "fixed",
-    "title": "Participant With Provided Interface"
+    "title": "Provider Role"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"role:type\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"120\" y=\"10\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 140,
     "h": 40,
     "aspect": "fixed",
-    "title": "Participant With Required Interface"
+    "title": "Consumer Role"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"role:type\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"120\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 120,
     "h": 40,
     "aspect": "fixed",
-    "title": "Participant"
+    "title": "Participant Role"
   },
   {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"10\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"130\" y=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"Realization\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry x=\"0.2375\" y=\"4\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"-19\" y=\"-6\" as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
