@@ -1,17 +1,8 @@
-# SoaML Extension for Diagrams.net
+<h1 style="text-align: center;"> SoaML Extension for Diagrams.net </h1>
 
-## 1- Introduction
+# About
 
-### 1.1 - What is SoaML?
-
-Service Oriented Architecture Modeling Language (SoaML) is a modeling language that enables us to architect and model Services Oriented Architecture (SOA) systems.
-SoaML extends the Unified Modeling Language (UML) profile to provide the modeling capabilities to describe how people, organizations, and different components of a system provide and use services in order to achieve a common business goal within a community, or a distributed computing environment. The SoaML specification is created and maintained by the <a href="https://www.omg.org/">Object Management Group (OMG)</a>.Furthermore,
-
-### 1.2 - What is the SoaML Extension for Diagrams.net?
-
-This extension is simply a collection of SoaML libraries that enables the user to draw SoaML diagrams within the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App created by JGraph Ltd. All syntax and semantics of the SoaML diagrams within this extension are based on the <a href="http://www.omg.org/spec/SoaML/">OMG SoaML specification</a>. The extension was developed as part of my bachelor's thesis at the Vrije Universiteit Amsterdam and is specifically designed to provide students of the <a href="https://studiegids.vu.nl/EN/courses/2022-2023/X_405061#/">Service Oriented Design course</a> run by <a href="https://research.vu.nl/en/persons/patricia-lago">prof. dr. Patricia Lago</a> at the Vrije Universiteit Amsterdam, with a lightweight open-source tool to draw SoaML diagrams for their course assignments. However, this extension is open for use and modification by anyone who is interested in modeling SOA systems.
-
-### 1.3 - What are the SoaML Libraries?
+This extension is a collection of SoaML libraries that enables the user to draw SoaML diagrams within the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App created by <a>JGraph Ltd</a>. The diagrams in each library are based on the<a href="http://www.omg.org/spec/SoaML/">OMG SoaML specification</a>. The SoaML extension for diagramas.net was developed as part of my bachelor's thesis at the Vrije Universiteit Amsterdam and is specifically designed to provide students of the <a href="https://studiegids.vu.nl/EN/courses/2022-2023/X_405061#/">Service Oriented Design course</a> run by <a href="https://research.vu.nl/en/persons/patricia-lago">prof. dr. Patricia Lago</a> at the Vrije Universiteit Amsterdam, with a lightweight open-source tool to draw SoaML diagrams for their course assignments. However, this extension is open for use and modification by anyone who is interested in modeling SOA systems using the SoaML notations provided.
 
 This extension provides the user with a colleciton of 5 SoaML libraries, with each library containing the elements for a specific SoaML diagram. The four libraries are:
 
@@ -19,27 +10,37 @@ This extension provides the user with a colleciton of 5 SoaML libraries, with ea
 2. **SoaML-Participant:** For drawing Participant Diagrams.
 3. **SoaML-ServiceContract:** For drawing Service Contract Diagrams.
 4. **SoaML-ServicesArchitecture:** For drawing Services Architecture Diagrams.
-5. **SoaML-Templates:** Examples of the afformentioned diagrams.
+5. **SoaML-Templates:** Examples of the aforementioned diagrams.
 
-These libraries provide the user with the ability to describe SOA systems from different prespectives that enable the user to understand how different components of a SOA System interact with one another to achieve a business goal.
+These libraries provide the user with the ability to specify services from different points of view, enabling the user to understand how different components provide and use services as well as how they interact with one another within a Services Oriented Architecture (SOA) system in order to to achieve a business goal.
 
-### 1.4 What to expect from the Tutorials?
+# Table of Contents
 
-The tutorials are designed to provide the user with a step-by-step guide on how to draw SoaML diagrams using the SoaML libraries. The tutorials are divided into two parts:
+- [What is SoaML?](#what-is-soaml)
 
-1. **Setting Up the SoaML Extension for Diagrams.net:**
+- [Setting Up the SoaML Extension for Diagrams.net](#setting-up-the-soaml-extension-for-diagramsnet)
 
-   This part of the tutorial will guide the user on how to set up the SoaML libraries in the <a>diagrams.net</a> web application and the <a>draw.io</a> desktop App.
+- [Drawing SoaML Diagrams in Diagrams.net](#drawing-soaml-diagrams-in-diagramsnet)
 
-2. **Drawing SoaML Diagrams in Diagrams.net:**
+  - [What to expect from this tutorial?](#what-to-expect-from-this-tutorial)
 
-   This part of the tutorial will guide the user on how to draw SoaML diagrams using the SoaML libraries. Part 2 of the tutorial will guide the user on how to draw the SoaML diagrams mentioned in section 1.3. The tutorials will also provide the user with a brief explanation of the syntax and semantics of each SoaML diagram, based on the <a>OMG SoaML specification</a>. Moreover, the SoaML diagrams drawn in the tutorial will use examples included in the <a>OMG SoaML specification</a> which involves a Service Network involving 3 "B2B" services comprising of a purchasing service, a shipping service, and a ship status service. **Video tutorials** will on drawing the Service Contract Diagram and the Services Architecture Diagram will also be provided, using the "CityCar2Go" B2B Service Network and its components as an example. The "CityCar2Go" B2B Service Network is an example taken from the "Service Oriented Design" course at the Vrije Universiteit Amsterdam.
+  - [Drawing Service Interface Diagrams](#drawing-service-interface-diagrams)
 
-Throughout the tutorials, GIF animations will be used to provide the user with additional visual guidance on how to setup the SoaML extension and draw SoaML diagrams using the SoaML libraries.
+  - [Drawing Participant Diagrams](#drawing-participant-diagrams)
 
-**Note:** viewing the GIF animations in full screen by clicking will provide a better quality viewing experience.
+  - [Drawing Service Contract Diagrams](#drawing-service-contract-diagrams)
 
-## 2 - Setting Up the SoaML Extension for Diagrams.net
+  - [Drawing Services Architecture Diagrams](#drawing-services-architecture-diagrams)
+
+- [Summary of Notations](#summary-of-notations)
+
+# What is SoaML?
+
+Service Oriented Architecture Modeling Language (SoaML) is a tool specified and maintained by the <a href="https://www.omg.org/">Object Management Group (OMG)</a> that enables us to model services through the use of modified Unified Modeling Language (UML) notations. In order to fully understand the purpose of SoaML let us be reminded of what goes on in a Service Oriented Architecture (SOA) System. In SOA systems, participants exist in a community, or a distributed computing environment and they use and provide services in order to achieve a common goal which are usually tied to a business process. Participants can be defined as people, organizations, or different components of a system. A service is defined as a value that is exchanged. In order for participants to provide or use services, they must play the role of a service provider or a service consumer.
+
+SoaML extends the UML profile to enable the specification of services in three possible approaches as described by the OMG SoaML Specification: The Simple Interface Approach, Service Interface Approach, and Service Contract Approach. Additionally, SoaML allows us to model a service network through the use of the Services Architecture diagram in order to describe how each participants collaborate as a community within a SOA system.
+
+# Setting Up the SoaML Extension for Diagrams.net
 
 ### **Method 1 (Recommended): Directly importing the libraries package from the Github Repository to diagrams.net:**
 
@@ -69,20 +70,32 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 
    **Happy Drawing!**
 
-## 3 - Drawing SoaML Diagrams in diagrams.net
+# Drawing SoaML Diagrams in diagrams.net
 
-### 3.1 - Service Interface Diagram
+## What to expect from this Tutorial?
 
-#### What is a Service Interface Diagram?
+The tutorials are designed to provide the user with a step-by-step guide on how to draw SoaML diagrams using the SoaML libraries. The tutorials are divided into two parts:
+
+2. **Drawing SoaML Diagrams in Diagrams.net:**
+
+   This part of the tutorial will guide the user on how to draw SoaML diagrams using the SoaML libraries. Part 2 of the tutorial will guide the user on how to draw the SoaML diagrams mentioned in section 1.3. The tutorials will also provide the user with a brief explanation of the syntax and semantics of each SoaML diagram, based on the <a>OMG SoaML specification</a>. Moreover, the SoaML diagrams drawn in the tutorial will use examples included in the <a>OMG SoaML specification</a> which involves a Service Network involving 3 "B2B" services comprising of a purchasing service, a shipping service, and a ship status service. **Video tutorials** will on drawing the Service Contract Diagram and the Services Architecture Diagram will also be provided, using the "CityCar2Go" B2B Service Network and its components as an example. The "CityCar2Go" B2B Service Network is an example taken from the "Service Oriented Design" course at the Vrije Universiteit Amsterdam.
+
+Throughout the tutorials, GIF animations will be used to provide the user with additional visual guidance on how to setup the SoaML extension and draw SoaML diagrams using the SoaML libraries.
+
+**Note:** viewing the GIF animations in full screen by clicking will provide a better quality viewing experience.
+
+## 3.1 - Service Interface Diagram
+
+### What is a Service Interface Diagram?
 
 **Test**:
 <img src="Images/Tutorial Images/Services Architecture/1.gif">
 
-#### How to draw a Service Interface Diagram in diagrams.net
+### How to draw a Service Interface Diagram in diagrams.net
 
-# 1 - Table of Notations
+# Summary of Notations
 
-## 1.1 - Services Architecture Diagram Notations
+## Services Architecture Diagram Notations
 
 | Notation                                                                                                       | Name                      | Description                                                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -92,7 +105,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 | <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
 | <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
 
-## 1.2 - Service Interface / Simple Interface Diagram Notations
+## Service Interface / Simple Interface Diagram Notations
 
 | Notation                                                                                                           | Name                                     | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :--------------------------------------- | :---------- |
@@ -110,7 +123,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 | <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          | Signal                                   |             |
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | Operation                                |             |
 
-## 1.3 - Service Contract Diagram Notations
+# 1.3 - Service Contract Diagram Notations
 
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
@@ -128,7 +141,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 | <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
 
-## 1.4 - Participant Diagram Notations
+# 1.4 - Participant Diagram Notations
 
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
@@ -146,7 +159,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 | <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
 
-## 1.5 - Miscellaneous Notations
+# 1.5 - Miscellaneous Notations
 
 | Notation                                                                                                           |     Name      | Description |
 | ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
@@ -163,9 +176,3 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 | <img src="Images/Notations/Interface/usage.png" alt="Service Interface" width="200"/>                              | left-aligned  |             |
 | <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
 | <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
-
-## References
-
-[1]
-[2]
-[3]
