@@ -86,22 +86,38 @@ SoaML extends the UML profile to enable the specification of services in three p
 
 ## What to expect from this Tutorial?
 
-The tutorials are designed to provide the user with a step-by-step guide on how to draw SoaML diagrams using the SoaML libraries. The tutorials are divided into two parts:
+This tutorial will guide the user on how to draw SoaML diagrams using the SoaML libraries provided by this extension. The tutorials will guide the user on how to draw the Service Interface Diagram, Participant Diagram, Service Contract Diagram, and Services Architecture Diagram. Each of the diagrams shown in this tutorial are derived from examples shown in the (2022-2023) edition of the Service Oriented Design (SOD) course at Vrije Universiteit Amsterdam, involving a "CityCar2Go" B2B (Business to Business) Service Network and the participants and services that are involved in the network.
 
-2. **Drawing SoaML Diagrams in Diagrams.net:**
+### The tutorials are divided into four sections:
 
-   This part of the tutorial will guide the user on how to draw SoaML diagrams using the SoaML libraries. Part 2 of the tutorial will guide the user on how to draw the SoaML diagrams mentioned in section 1.3. The tutorials will also provide the user with a brief explanation of the syntax and semantics of each SoaML diagram, based on the <a>OMG SoaML specification</a>. Moreover, the SoaML diagrams drawn in the tutorial will use examples included in the <a>OMG SoaML specification</a> which involves a Service Network involving 3 "B2B" services comprising of a purchasing service, a shipping service, and a ship status service. **Video tutorials** will on drawing the Service Contract Diagram and the Services Architecture Diagram will also be provided, using the "CityCar2Go" B2B Service Network and its components as an example. The "CityCar2Go" B2B Service Network is an example taken from the "Service Oriented Design" course at the Vrije Universiteit Amsterdam.
+1. How to draw a Service Interface Diagram
+
+2. How to draw a Participant Diagram
+
+3. How to draw a Service Contract Diagram (Video Tutorial Included for the SOD Course)
+
+4. How to draw a Services Architecture Diagram (Video Tutorial Included for the SOD Course)
+
+### Each section will have a similar structure providing the following information in order:
+
+1. Information about the diagram, detailing what the diagram is used for and what it represents.
+
+2. Table of notations involved involved in the drawing of the diagram, detailing the element of that each of the notation represent and what it defines.
+
+3. Step-by-step guide on how to draw the diagram in diagrams.net/draw.io desktop application.
 
 Throughout the tutorials, GIF animations will be used to provide the user with additional visual guidance on how to setup the SoaML extension and draw SoaML diagrams using the SoaML libraries.
 
 **Note:** viewing the GIF animations in full screen by clicking will provide a better quality viewing experience.
 
-## 3.1 - Service Interface Diagram
+## Drawing Service Interface Diagrams
 
 ### What is a Service Interface Diagram?
 
 **Test**:
 <img src="Images/Tutorial Images/Services Architecture/1.gif">
+
+### SoaML Service Interface Diagram Notations
 
 ### How to draw a Service Interface Diagram in diagrams.net
 
