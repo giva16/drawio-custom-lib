@@ -6,7 +6,9 @@ This extension is a collection of SoaML libraries that enables the user to draw 
 
 The SoaML extension for diagramas.net was developed as part of my bachelor's thesis at the Vrije Universiteit Amsterdam and is specifically designed to provide students of the <a href="https://studiegids.vu.nl/EN/courses/2022-2023/X_405061#/">Service Oriented Design course</a> taught by <a href="https://research.vu.nl/en/persons/patricia-lago">prof. dr. Patricia Lago</a> at the Vrije Universiteit Amsterdam with a lightweight open-source tool to draw SoaML diagrams for their course assignments. However, this extension is also open for use and modification by anyone who is interested in modeling SOA systems using the SoaML notations provided.
 
-This extension provides the user with a colleciton of 5 SoaML libraries, with each library containing the elements for a specific SoaML diagram. The four libraries are:
+This extension provides the user with a colleciton of 5 SoaML libraries, with each library containing the elements for a specific SoaML diagram.
+
+The 5 libraries are:
 
 1. **SoaML-Interface:** For drawing Simple Interface and Service Interface Diagrams.
 2. **SoaML-Participant:** For drawing Participant Diagrams.
@@ -48,7 +50,11 @@ SoaML extends the UML profile to enable the specification of services in three p
 
 **To import the libraries package directly from the Github Repository to diagrams.net simply click on this <a href="https://app.diagrams.net/?splash=0&clibs=Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-General.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-Interface.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-Participant.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-ServicesArchitecture.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-ServiceContract.xml;Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fgiva16%2Fdrawio-custom-lib%2Fmain%2FSOAML%2520Library%2FSoaML-Templates.xml">link</a>**, this link will directly import the libraries from the github repository to the diagrams.net web application's library manager. The libraries will be stored in the local storage of your web-browser.
 
+<img src="Images/Tutorial Images/Setting Up Library/1.gif">
+
 **To Update the libraries:** Close the libraries in diagrams.net and click on this link again. This will update the libraries in the local storage of your web-browser.
+
+<img src="Images/Tutorial Images/Setting Up Library/2.gif">
 
 **\*Note:** _This method does not allow the user to modify the libraries and templates and is not available for the offline diagrams.net desktop application._
 
