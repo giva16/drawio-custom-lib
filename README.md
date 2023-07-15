@@ -143,6 +143,20 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
 ### How to draw a Service Interface Diagram in diagrams.net
 
+1. Create a new diagram in diagrams.net and give it the name of the Service that you are modeling (e.g. Eco-Statistics Service).
+
+2. Rename the page to any name you want (i.e. Service Interface Diagram).
+
+   <img src="Images/Tutorial Images/Service Interface/1.gif">
+
+3. We will be drawing the Service Interface Diagram for a bi-directional "Eco-Statistics Service", a service within the "CityCar2Go" service network. Start by navigating to the SoaML-Interface Library an selecting the "Service Interface" element. Drag and drop the element onto the canvas.
+
+   <img src="Images/Tutorial Images/Service Interface/2.gif">
+
+4. Rename the Service Interface element to "Eco-Statistics Service".
+
+   <img src="Images/Tutorial Images/Service Interface/3.gif">
+
 # Summary of Notations
 
 ## Services Architecture Diagram Notations
