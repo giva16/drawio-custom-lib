@@ -114,10 +114,26 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 
 ### What is a Service Interface Diagram?
 
-**Test**:
-<img src="Images/Tutorial Images/Services Architecture/1.gif">
+To understand what the SoaML Service Interface Diagram is about, let us be reminded that in order for a service provider to provide a service to a service consumer, the service provider must implement an interface for the consumer to establish a communication channel with the service provider. For a connection to be established between a service provider and a service consumer, the service provider must define the messages (signals and operations) that it can receive from the consumer by implementing a provided interface for the consumer and define that messages that it expects to be able to send back to the consumer (callbacks in a bi-directional interface) by specifying the provided interface that the consumer is to implement (modeled as a required interface from the perspective of the service provider).
+
+The SoaML Service Interface Diagram specifies the interface that the service provider offers to provide the service logic that it owns to the service consumer, and the interface that it expects the consumer to implement to receive callbacks from the provider; this defines a service with a bi-directional protocol. However, the SoaML Service Interface Diagram also allows for the modeling of a uni-directional interface known as a Simple Interface. In a Simple Interface Diagram, the service provider only specifies the interface that it offers to the consumer and does not perform any callbacks to the consumer, defining a service with a uni-directional protocol.
+
+Additionally, the Service Interface Diagram defines the roles that each participant involved within the service takes. In a bi-directional service, one participant may take the role of a service provider, thus implementing the specified provided interface in its service port. On the other hand, one participant may take the role of a service consumer, thus implementing the specified required interface in its service port.
 
 ### SoaML Service Interface Diagram Notations
+
+| Notation                                                                                                           | Name               | Description |
+| ------------------------------------------------------------------------------------------------------------------ | :----------------- | :---------- |
+| <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | Service Interface  |             |
+| <img src="Images/Notations/Interface/si-interface-cport.png" alt="Interface with Consumer Interface" width="200"/> | Required Interface |             |
+| <img src="Images/Notations/Interface/si-interface-pport.png" alt="Provided Interface" width="200"/>                | Provided Interface |             |
+| <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Consumer Role" width="200"/>              | Consumer Role      |             |
+| <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Provider Role " width="200"/>             | Provider Role      |             |
+| <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Participant Role" width="200"/>          | Participant Role   |             |
+| <img src="Images/Notations/Interface/service-channel.png" alt="Service Channel " width="200"/>                     | Service Channel    |             |
+| <img src="Images/Notations/Interface/realization.png" alt="Realization" width="200"/>                              | Realization        |             |
+| <img src="Images/Notations/Interface/usage.png" alt="Usage" width="200"/>                                          | Usage              |             |
+| <img src="Images/Notations/Interface/si-signal.png" alt="Signal" width="200"/>                                     | Signal             |             |
 
 ### How to draw a Service Interface Diagram in diagrams.net
 
@@ -132,24 +148,6 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 | <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | Internal Participant      | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
 | <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
 | <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
-
-## Service Interface / Simple Interface Diagram Notations
-
-| Notation                                                                                                           | Name                                     | Description |
-| ------------------------------------------------------------------------------------------------------------------ | :--------------------------------------- | :---------- |
-| <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | Service Interface                        |             |
-| <img src="Images/Notations/Interface/simple-interface-c.png" alt="Service Interface" width="200"/>                 | Simple Interface with Required Interface |             |
-| <img src="Images/Notations/Interface/simple-interface-p.png" alt="Service Interface" width="200"/>                 | Simple Interface with Provided Interface |             |
-| <img src="Images/Notations/Interface/si-interface-cport.png" alt="Interface with Consumer Interface" width="200"/> | Consumer Interface                       |             |
-| <img src="Images/Notations/Interface/si-interface-pport.png" alt="Service Interface" width="200"/>                 | Provider Interface                       |             |
-| <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Service Interface" width="200"/>          | Participant with Required Interface      |             |
-| <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Service Interface" width="200"/>          | Participant with Provided Interface      |             |
-| <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Service Interface" width="200"/>         | Participant                              |             |
-| <img src="Images/Notations/service-channel.png" alt="Service Interface" width="200"/>                              | Service Channel                          |             |
-| <img src="Images/Notations/Interface/realization.png" alt="Service Interface" width="200"/>                        | Realization                              |             |
-| <img src="Images/Notations/Interface/usage.png" alt="Service Interface" width="200"/>                              | Usage                                    |             |
-| <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          | Signal                                   |             |
-| <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | Operation                                |             |
 
 # 1.3 - Service Contract Diagram Notations
 
