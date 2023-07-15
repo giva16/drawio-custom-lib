@@ -56,20 +56,6 @@
     "title": "Internal Service Contract"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"180\" height=\"300\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry width=\"180\" height=\"300\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"role:type\" style=\"shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&amp;quot;edgeStyle&amp;quot;:&amp;quot;elbowEdgeStyle&amp;quot;,&amp;quot;elbow&amp;quot;:&amp;quot;vertical&amp;quot;,&amp;quot;curved&amp;quot;:0,&amp;quot;rounded&amp;quot;:0};\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry width=\"180\" height=\"300\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry x=\"150\" y=\"10\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 180,
-    "h": 300,
-    "aspect": "fixed",
-    "title": "Provider Lifeline"
-  },
-  {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"180\" height=\"300\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry width=\"180\" height=\"300\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"role:type\" style=\"shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&amp;quot;edgeStyle&amp;quot;:&amp;quot;elbowEdgeStyle&amp;quot;,&amp;quot;elbow&amp;quot;:&amp;quot;vertical&amp;quot;,&amp;quot;curved&amp;quot;:0,&amp;quot;rounded&amp;quot;:0};\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry width=\"180\" height=\"300\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;\" vertex=\"1\" parent=\"3\"&gt;&lt;mxGeometry x=\"150\" y=\"10\" width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 180,
-    "h": 300,
-    "aspect": "fixed",
-    "title": "Consumer Lifeline"
-  },
-  {
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;amp;lt;&amp;amp;lt;ServiceChannel&amp;amp;gt;&amp;amp;gt;\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry x=\"-0.0625\" y=\"-2\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"5\" y=\"-12\" as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 160,
     "h": 1,
@@ -82,5 +68,12 @@
     "h": 1,
     "aspect": "fixed",
     "title": "Usage Bind"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;dashed=1;html=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"180\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"role\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry x=\"-0.4\" y=\"-4\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"25\" y=\"-14\" as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 180,
+    "h": 1,
+    "aspect": "fixed",
+    "title": "Role Binding"
   }
 ]</mxlibrary>
