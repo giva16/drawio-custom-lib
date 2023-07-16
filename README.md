@@ -136,7 +136,7 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 | <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Consumer Role" width="200"/>              | Consumer Role      | This represents the role of a service consumer participant within a service. The service consumer's role is typed by the Required Interface.                                                                                                                                                                                                                                                                                                                                                                                            |
 | <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Provider Role " width="200"/>             | Provider Role      | This represents the role of a service provider participant within a service. The service provider's role is typed by the specified Provided Interface.                                                                                                                                                                                                                                                                                                                                                                                  |
 | <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Participant Role" width="200"/>          | Participant Role   | This represents the service consumer participant's role in a uni-directional Simple Interface Diagram where only one of the participants will implement a Provided Interface since message exchanges are asynchronous, allowing only a single direction from the service consumer to the service provider.                                                                                                                                                                                                                              |
-| <img src="Images/Notations/Interface/service-channel.png" alt="Service Channel " width="200"/>                     | Service Channel    | This represents an established communication channel between the service consumer and the service provider upon determining the compatibility between their interfaces.                                                                                                                                                                                                                                                                                                                                                                 |
+| <img src="Images/Notations/Interface/connector.png" alt="Connector" width="200"/>                                  | Connector          | This is an association used to connect the Required Interface to the Provided Interface                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <img src="Images/Notations/Interface/realization.png" alt="Realization" width="200"/>                              | Realization        | This is the association between the Service Interface and the Provided Interface to indicate that the Service Interface implements the interface.                                                                                                                                                                                                                                                                                                                                                                                       |
 | <img src="Images/Notations/Interface/usage.png" alt="Usage" width="200"/>                                          | Usage              | This is the association between the Service Interface and the Required Interface to indicate that the Service Interface uses the interface as a Required Interface.                                                                                                                                                                                                                                                                                                                                                                     |
 | <img src="Images/Notations/Interface/si-signal.png" alt="Signal" width="200"/>                                     | Signal             | This is a message that can be added to the set of defined messages that the service provider will receive or send in the specified interfaces.                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -157,7 +157,7 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
    <img src="Images/Tutorial Images/Service Interface/3.gif">
 
-5. Next, we want to specify the Provided Interface that the service provider implements. To do this, navigate to the SoaML-Interface Library and select the "Provided Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Provided Interface the name "StatCenter", this will type of the Service Provider's role.
+5. Next, we want to specify the Provided Interface that the service provider implements. To do this, navigate to the SoaML-Interface Library and select the "Provided Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Provided Interface the name "StatCenter", this will be the type of the Service Provider's role.
 
    <img src="Images/Tutorial Images/Service Interface/4.gif">
 
@@ -169,17 +169,36 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
    <img src="Images/Tutorial Images/Service Interface/6.gif">
 
-8. Next, we want to specify the Required Interface that the service uses. To do this, navigate to the SoaML-Interface Library and select the "Required Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Required Interface the name "Statistics Request Placer", this will be the type of the Service Consumer.
+8. Finally, we'll have to give the Service Interface a Realization Association with the Provided Interface since the service provider will implement the Provided Interface. To do this, navigate to the SoaML-Interface Library and select the "Realization" element. Link the head of the arrow to the Provided Interface and the arrow's tail to the Service Interface. We may remove the association's label by clicking on the label and pressing the delete key to prevent the diagram from cluttering.
 
-  <img src="Images/Tutorial Images/Service Interface/7.gif">
+   <img src="Images/Tutorial Images/Service Interface/7.gif">
 
-8. The Required Interface should specify the set of messages that the service provider can send back to the consumer. Our Required Interface for the "Eco-Statistics" Service must specify the public operations "requestCarbonEmissionsTotal()" and "requestCarbonemissionsPerVehicle()". To specify the first operation, simply rename the Signal element inside the Required Interface to "+requestCarbonEmissionsTotal()".
+9. Next, we want to specify the Required Interface that the service provider uses. To do this, navigate to the SoaML-Interface Library and select the "Required Interface" element. Drag and drop the element onto the canvas, next to the Provided Interface element. Give the Required Interface the name "StatConsumer"; this will be the Service Consumer's Role type.
 
-   <img src="Images/Tutorial Images/Service Interface/8.gif">
+  <img src="Images/Tutorial Images/Service Interface/8.gif">
 
-9. Then, we need to add another operation to the required interface for the "requestCarbonEmissionsPerVehicle()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Required Interface, below the "+requestCarbonEmissionsTotal()" operation. Rename the Signal element to "+requestCarbonEmissionsPerVehicle()".
+10. The Required Interface should specify the set of messages that the service provider can send back to the consumer. Our Required Interface for the "Eco-Statistics" Service must specify the public operations "stat()" and "fullReport()" to denote the service provider returning of the requested data to the service consumer. To specify the first operation, rename the Signal element inside the Required Interface to "stat()".
 
-   <img src="Images/Tutorial Images/Service Interface/9 .gif">
+   <img src="Images/Tutorial Images/Service Interface/9.gif">
+
+11. Then, we need to add another operation to the required interface for the "fullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Required Interface, below the "+stat()" operation. Rename the Signal element to "+fullReport()".
+
+   <img src="Images/Tutorial Images/Service Interface/10.gif">
+
+12. Finally, we'll have to give the Service Interface a Usage Association with the Required Interface since the service provider will use the Required Interface. To do this, navigate to the SoaML-Interface Library and select the "Usage" element. Link the association the same way as it was done for step 8.
+
+   <img src="Images/Tutorial Images/Service Interface/11.gif">
+
+13. We'll have to specify the Service Provider's Role within the service. To do this, navigate to the SoaML-Interface Library and select the "Provider Role" element. Drag and drop the element into the Service Interface element, preferably on the same side as the Provided Interface element. Give the Provider Role a type of "StatCenter" to indicate that the Service Provider's role is typed by the Provided Interface.
+    <img src="Images/Tutorial Images/Service Interface/12.gif">
+
+14. Next, we'll have to specify the Service Consumer's Role within the service. To do this, navigate to the SoaML-Interface Library and select the "Consumer Role" element. Drag and drop the element into the Service Interface element, preferably on the same side as the Required Interface element. Give the Consumer Role a type of "StatConsumer" to indicate that the Service Consumer's role is typed by the Required Interface.
+
+   <img src="Images/Tutorial Images/Service Interface/13.gif">
+
+15. Connect the participant roles by navigating to the SoaML-Interface Library and selecting the "Connector" element, then linking the 2 roles to each other. We may remove the association's label by clicking on the label and pressing the delete key to prevent the diagram from cluttering.
+
+    <img src="Images/Tutorial Images/Service Interface/14.gif">
 
 # Summary of Notations
 
