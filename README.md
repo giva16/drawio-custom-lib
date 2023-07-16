@@ -145,49 +145,49 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
 1. Create a new diagram in diagrams.net and give it the name of the Service that you are modeling (e.g. Eco-Statistics Service).
 
-2. Rename the page to any name you want (i.e. Service Interface Diagram).
+2. Rename the page to any name you want (i.e. Service Interface Diagram).<br>
    <img src="Images/Tutorial Images/Service Interface/1.gif">
 
-3. We will be drawing the Service Interface Diagram for a bi-directional "Eco-Statistics Service", a service within the "CityCar2Go" service network. Start by navigating to the SoaML-Interface Library an selecting the "Service Interface" element. Drag and drop the element onto the canvas.
+3. We will be drawing the Service Interface Diagram for a bi-directional "Eco-Statistics Service", a service within the "CityCar2Go" service network. Start by navigating to the SoaML-Interface Library an selecting the "Service Interface" element. Drag and drop the element onto the canvas.<br>
    <img src="Images/Tutorial Images/Service Interface/2.gif">
 
 4. Rename the Service Interface element to "Eco-Statistics Service".
    <img src="Images/Tutorial Images/Service Interface/3.gif">
 
-5. Next, we want to specify the Provided Interface that the service provider implements. To do this, navigate to the SoaML-Interface Library and select the "Provided Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Provided Interface the name "StatCenter", this will be the type of the Service Provider's role.
+5. Next, we want to specify the Provided Interface that the service provider implements. To do this, navigate to the SoaML-Interface Library and select the "Provided Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Provided Interface the name "StatCenter", this will be the type of the Service Provider's role.<br>
    <img src="Images/Tutorial Images/Service Interface/4.gif">
 
-6. The Provided Interface should specify the set of messages that the service provider can receive from the service consumer when the consumer is using the specified service. Our Provided Interface for the "Eco-Statistics" Service must specify the public operations "requestStat()" to represent an optional interaction by the consumer, requesting for a specific Eco-Statistic (i.e. Carbon Emissions, Gas Usage, Nitrogen Emission etc.) and "requestFullReport()" to represent the required interaction by the consumer, requesting for a full report of the Eco-Statistics. To specify the first operation, simply rename the Signal element inside the Provided Interface to "+requestStat()".
+6. The Provided Interface should specify the set of messages that the service provider can receive from the service consumer when the consumer is using the specified service. Our Provided Interface for the "Eco-Statistics" Service must specify the public operations "requestStat()" to represent an optional interaction by the consumer, requesting for a specific Eco-Statistic (i.e. Carbon Emissions, Gas Usage, Nitrogen Emission etc.) and "requestFullReport()" to represent the required interaction by the consumer, requesting for a full report of the Eco-Statistics. To specify the first operation, simply rename the Signal element inside the Provided Interface to "+requestStat()".<br>
    <img src="Images/Tutorial Images/Service Interface/5.gif">
 
-7. Then, we need to add another operation to the Provided Interface for the "requestFullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Provided Interface element, below the "requestStat()" operation. Give the operation the name "+requestFullReport()".
+7. Then, we need to add another operation to the Provided Interface for the "requestFullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Provided Interface element, below the "requestStat()" operation. Give the operation the name "+requestFullReport()".<br>
    <img src="Images/Tutorial Images/Service Interface/6.gif">
 
-8. Finally, we'll have to give the Service Interface a Realization Association with the Provided Interface since the service provider will implement the Provided Interface. To do this, navigate to the SoaML-Interface Library and select the "Realization" element. Link the head of the arrow to the Provided Interface and the arrow's tail to the Service Interface. We may remove the association's label by clicking on the label and pressing the delete key to prevent the diagram from cluttering.
+8. Finally, we'll have to give the Service Interface a Realization Association with the Provided Interface since the service provider will implement the Provided Interface. To do this, navigate to the SoaML-Interface Library and select the "Realization" element. Link the head of the arrow to the Provided Interface and the arrow's tail to the Service Interface. We may remove the association's label by clicking on the label and pressing the delete key to prevent the diagram from cluttering.<br>
    <img src="Images/Tutorial Images/Service Interface/7.gif">
 
-9. Next, we want to specify the Required Interface that the service provider uses. To do this, navigate to the SoaML-Interface Library and select the "Required Interface" element. Drag and drop the element onto the canvas, next to the Provided Interface element. Give the Required Interface the name "StatConsumer"; this will be the Service Consumer's Role type.
+9. Next, we want to specify the Required Interface that the service provider uses. To do this, navigate to the SoaML-Interface Library and select the "Required Interface" element. Drag and drop the element onto the canvas, next to the Provided Interface element. Give the Required Interface the name "StatConsumer"; this will be the Service Consumer's Role type.<br>
    <img src="Images/Tutorial Images/Service Interface/8.gif">
 
-10. The Required Interface should specify the set of messages that the service provider can send back to the consumer. Our Required Interface for the "Eco-Statistics" Service must specify the public operations "stat()" and "fullReport()" to denote the service provider returning of the requested data to the service consumer. To specify the first operation, rename the Signal element inside the Required Interface to "stat()".
+10. The Required Interface should specify the set of messages that the service provider can send back to the consumer. Our Required Interface for the "Eco-Statistics" Service must specify the public operations "stat()" and "fullReport()" to denote the service provider returning of the requested data to the service consumer. To specify the first operation, rename the Signal element inside the Required Interface to "stat()".<br>
     <img src="Images/Tutorial Images/Service Interface/9.gif">
 
-11. Then, we need to add another operation to the required interface for the "fullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Required Interface, below the "+stat()" operation. Rename the Signal element to "+fullReport()".
+11. Then, we need to add another operation to the required interface for the "fullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Required Interface, below the "+stat()" operation. Rename the Signal element to "+fullReport()".<br>
     <img src="Images/Tutorial Images/Service Interface/10.gif">
 
-12. Finally, we'll have to give the Service Interface a Usage Association with the Required Interface since the service provider will use the Required Interface. To do this, navigate to the SoaML-Interface Library and select the "Usage" element. Link the association the same way as it was done for step 8.
+12. Finally, we'll have to give the Service Interface a Usage Association with the Required Interface since the service provider will use the Required Interface. To do this, navigate to the SoaML-Interface Library and select the "Usage" element. Link the association the same way as it was done for step 8.<br>
     <img src="Images/Tutorial Images/Service Interface/11.gif">
 
-13. We'll have to specify the Service Provider's Role within the service. To do this, navigate to the SoaML-Interface Library and select the "Provider Role" element. Drag and drop the element into the Service Interface element, preferably on the same side as the Provided Interface element. Give the Provider Role a type of "StatCenter" to indicate that the Service Provider's role is typed by the Provided Interface.
+13. We'll have to specify the Service Provider's Role within the service. To do this, navigate to the SoaML-Interface Library and select the "Provider Role" element. Drag and drop the element into the Service Interface element, preferably on the same side as the Provided Interface element. Give the Provider Role a type of "StatCenter" to indicate that the Service Provider's role is typed by the Provided Interface.<br>
     <img src="Images/Tutorial Images/Service Interface/12.gif">
 
-14. Next, we'll have to specify the Service Consumer's Role within the service. To do this, navigate to the SoaML-Interface Library and select the "Consumer Role" element. Drag and drop the element into the Service Interface element, preferably on the same side as the Required Interface element. Give the Consumer Role a type of "StatConsumer" to indicate that the Service Consumer's role is typed by the Required Interface.
+14. Next, we'll have to specify the Service Consumer's Role within the service. To do this, navigate to the SoaML-Interface Library and select the "Consumer Role" element. Drag and drop the element into the Service Interface element, preferably on the same side as the Required Interface element. Give the Consumer Role a type of "StatConsumer" to indicate that the Service Consumer's role is typed by the Required Interface.<br>
     <img src="Images/Tutorial Images/Service Interface/13.gif">
 
-15. Connect the participant roles by navigating to the SoaML-Interface Library and selecting the "Connector" element, then linking the 2 roles to each other. We may remove the association's label by clicking on the label and pressing the delete key to prevent the diagram from cluttering.
+15. Connect the participant roles by navigating to the SoaML-Interface Library and selecting the "Connector" element, then linking the 2 roles to each other. We may remove the association's label by clicking on the label and pressing the delete key to prevent the diagram from cluttering.<br>
     <img src="Images/Tutorial Images/Service Interface/14.gif">
 
-16. We have now completed the Service Interface Diagram for the "Eco-Statistics" Service. Save the diagram by going to File > Save As... then selecting the location you want to save the diagram and the format that you want to save the diagram as.
+16. We have now completed the Service Interface Diagram for the "Eco-Statistics" Service. Save the diagram by going to File > Save As... then selecting the location you want to save the diagram and the format that you want to save the diagram as.<br>
     <img src="Images/Tutorial Images/Service Interface/15.png" width="400px">
 
 # Summary of Notations
