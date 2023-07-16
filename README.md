@@ -110,7 +110,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 
 **Note:** viewing the GIF animations in full screen by clicking will provide a better quality viewing experience.
 
-## Drawing Service Interface Diagrams
+## 1 - Drawing a Service Interface Diagram
 
 ### What is a Service Interface Diagram?
 
@@ -189,6 +189,23 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
 16. We have now completed the Service Interface Diagram for the "Eco-Statistics" Service. Save the diagram by going to File > Save As... then selecting the location you want to save the diagram and the format that you want to save the diagram as.<br>
     <img src="Images/Tutorial Images/Service Interface/15.png" width="400px">
+
+## 2 - Drawing a Particpant Diagram
+
+### What is a Participant Diagram?
+
+### SoaML Participant Diagram Notations
+
+| Notation                                                                                                | Name                      | Description                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="Images/Notations/Participant/participant.png" alt="participant" width="200"/>                 | Participant               | ServicesArchitecture describes how a network of participants work together by providing and consuming services to fulfill a purpose. Where each services are expressed as service contracts |
+| <img src="Images/Notations/Participant/p-architecture.png" alt="participant architecture" width="200"/> | Internal Service Contract | Service Contract gives a description of how participants should interact in order to enact a service                                                                                        |
+| <img src="Images/Notations/Participant/p-class.png" alt="participant class" width="200"/>               | Participant Class         | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| <img src="Images/Notations/Participant/bi-port.png" alt="bi-directional port" width="200"/>             | Bi-directional Port       | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
+| <img src="Images/Notations/Participant/r-port.png" alt="request port" width="200"/>                     | Request Port              | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
+| <img src="Images/Notations/Participant/s-port.png" alt="service port" width="200"/>                     | Service Port              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| <img src="Images/Notations/Participant/r-interface.png" alt="required interface" width="200"/>          | Required Interface        | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| <img src="Images/Notations/Participant/s-interface.png" alt="provided interface" width="200"/>          | Provided Interface        | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
 
 # Summary of Notations
 
