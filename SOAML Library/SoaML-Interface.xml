@@ -21,21 +21,21 @@
     "title": "Provided Interface"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"role:type\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"120\" y=\"10\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"&amp;lt;b&amp;gt;role:type&amp;lt;/b&amp;gt;\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"shape=requiredInterface;perimeterSpacing=0;rotation=-180;connectable=0;allowArrows=0;rotatable=1;container=0;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"120\" y=\"10\" width=\"10.050000000000002\" height=\"15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 140,
     "h": 40,
     "aspect": "fixed",
     "title": "Consumer Role"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"role:type\" style=\"shape=stencil(tZTdDoIgFICfhtvGz9q6bVTvQXZMJoED+nv7UHSFqWtNb9jOOfM7H8IBMe4KUQGiuEBshyilOCwhvMeQ4DYWroLMx+RNWCmOCmLFeWtKuMuTbxFSF2Clr6tsj/AW1UyMGM+M1gEijXZJ5aMeYELq8C1+RFjb/plEVeBfwINtJWMW0cPv2NV6GTBZyDfFdvaz+84HTo3JUgc3G5j8j2U8ZMYuN+NHkZVna676NChj67mavu/9YezN6qDPSFfGc2NhQieXSsWRnviBoJSsHLy1N+mprHveiTYZ0e7go92bfX3pN9n4ijWJFw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;lt;b&amp;gt;role:type&amp;lt;/b&amp;gt;\" style=\"shape=stencil(tZTdDoIgFICfhtvGz9q6bVTvQXZMJoED+nv7UHSFqWtNb9jOOfM7H8IBMe4KUQGiuEBshyilOCwhvMeQ4DYWroLMx+RNWCmOCmLFeWtKuMuTbxFSF2Clr6tsj/AW1UyMGM+M1gEijXZJ5aMeYELq8C1+RFjb/plEVeBfwINtJWMW0cPv2NV6GTBZyDfFdvaz+84HTo3JUgc3G5j8j2U8ZMYuN+NHkZVna676NChj67mavu/9YezN6qDPSFfGc2NhQieXSsWRnviBoJSsHLy1N+mprHveiTYZ0e7go92bfX3pN9n4ijWJFw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 160,
     "h": 40,
     "aspect": "fixed",
     "title": "Provider Role"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"role:type\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"120\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"&amp;lt;b&amp;gt;role:type&amp;lt;/b&amp;gt;\" style=\"rounded=0;whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"120\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 120,
     "h": 40,
     "aspect": "fixed",
