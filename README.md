@@ -102,7 +102,7 @@ This tutorial will guide the user on how to draw SoaML diagrams using the SoaML 
 
 1. Information about the diagram, detailing what the diagram is used for and what it represents.
 
-2. Table of notations involved involved in the drawing of the diagram, detailing the element of that each of the notation represent and what it defines.
+2. Table of notations involved involved in the drawing of the diagram, detailing the elements of the diagram, what each notation represents and what it defines.
 
 3. Step-by-step guide on how to draw the diagram in diagrams.net/draw.io desktop application.
 
@@ -116,7 +116,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 
 <img src="Images/Templates/service-interface.png" width="400"/>
 
-**Figure1: Service Interface Diagram for an Eco-Statistics Service**
+**Figure 1: Service Interface Diagram for an Eco-Statistics Service**
 
 To understand what the SoaML Service Interface Diagram is about, let us be reminded that for a service provider to provide a service to a service consumer, the service provider must implement an interface for the consumer to establish a communication channel with the service provider. For a connection to be established between a service provider and a service consumer, the service provider must define the messages (signals and operations) that it can receive from the consumer by implementing a provided interface for the consumer and define the messages that it expects to be able to send back to the consumer (callbacks in a bi-directional interface) by specifying the provided interface that the consumer is to implement (modeled as a required interface from the perspective of the service provider).
 
@@ -157,15 +157,15 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
    <img src="Images/Tutorial Images/Service Interface/3.gif">
 
-5. Next, we want to specify the Provided Interface that the service provider implements. To do this, navigate to the SoaML-Interface Library and select the "Provided Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Provided Interface the name "Statistics Request Taker", this will be the type of the Service Provider's role.
+5. Next, we want to specify the Provided Interface that the service provider implements. To do this, navigate to the SoaML-Interface Library and select the "Provided Interface" element. Drag and drop the element onto the canvas, above the Service Interface Element. Give the Provided Interface the name "StatCenter", this will type of the Service Provider's role.
 
    <img src="Images/Tutorial Images/Service Interface/4.gif">
 
-6. The Provided Interface should specify the set of messages that the service provider can receive from the service consumer when the consumer is using the specified service. Our Provided Interface for the "Eco-Statistics" Service must specify the public operations "requestStatistic()" to represent an optional interaction by the consumer, requesting for a specific Eco-Statistic (i.e. Carbon Emissions, Gas Usage, Nitrogen Emission etc.) and "requestFullReport()" to represent the required interaction by the consumer, requesting for a full report of the Eco-Statistics. To specify the first operation, simply rename the Signal element inside the Provided Interface to "+requestStatistic()".
+6. The Provided Interface should specify the set of messages that the service provider can receive from the service consumer when the consumer is using the specified service. Our Provided Interface for the "Eco-Statistics" Service must specify the public operations "requestStat()" to represent an optional interaction by the consumer, requesting for a specific Eco-Statistic (i.e. Carbon Emissions, Gas Usage, Nitrogen Emission etc.) and "requestFullReport()" to represent the required interaction by the consumer, requesting for a full report of the Eco-Statistics. To specify the first operation, simply rename the Signal element inside the Provided Interface to "+requestStat()".
 
    <img src="Images/Tutorial Images/Service Interface/5.gif">
 
-7. Then, we need to add another operation to the Provided Interface for the "requestFullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Provided Interface element, below the "requestStatistic()" operation. Give the operation the name "+requestFullReport()".
+7. Then, we need to add another operation to the Provided Interface for the "requestFullReport()" operation. To do this, navigate to the SoaML-Interface Library and select the "Signal" element. Drag and drop the element onto the Provided Interface element, below the "requestStat()" operation. Give the operation the name "+requestFullReport()".
 
    <img src="Images/Tutorial Images/Service Interface/6.gif">
 
