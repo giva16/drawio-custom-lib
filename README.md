@@ -200,6 +200,10 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
     <img src="Images/Tutorial Images/Service Interface/14.gif">
 
+16. We have now completed the Service Interface Diagram for the "Eco-Statistics" Service. Save the diagram by going to File > Save As... then selecting the location you want to save the diagram and the format that you want to save the diagram as.
+
+   <img src="Images/Tutorial Images/Service Interface/15.png" width="400px">
+
 # Summary of Notations
 
 ## Services Architecture Diagram Notations
