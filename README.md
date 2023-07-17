@@ -207,6 +207,37 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 | <img src="Images/Notations/Participant/r-interface.png" alt="required interface" width="200"/>          | Required Interface        | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
 | <img src="Images/Notations/Participant/s-interface.png" alt="provided interface" width="200"/>          | Provided Interface        | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
 
+## 3 - Drawing a Service Contract Diagram
+
+### What is a Service Contract Diagram?
+
+### SoaML Service Contract Diagram Notations
+
+| Notation                                                                                                | Name                      | Description                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="Images/Notations/Participant/participant.png" alt="participant" width="200"/>                 | Participant               | ServicesArchitecture describes how a network of participants work together by providing and consuming services to fulfill a purpose. Where each services are expressed as service contracts |
+| <img src="Images/Notations/Participant/p-architecture.png" alt="participant architecture" width="200"/> | Internal Service Contract | Service Contract gives a description of how participants should interact in order to enact a service                                                                                        |
+| <img src="Images/Notations/Participant/p-class.png" alt="participant class" width="200"/>               | Participant Class         | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| <img src="Images/Notations/Participant/bi-port.png" alt="bi-directional port" width="200"/>             | Bi-directional Port       | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
+| <img src="Images/Notations/Participant/r-port.png" alt="request port" width="200"/>                     | Request Port              | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
+| <img src="Images/Notations/Participant/s-port.png" alt="service port" width="200"/>                     | Service Port              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| <img src="Images/Notations/Participant/r-interface.png" alt="required interface" width="200"/>          | Required Interface        | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| <img src="Images/Notations/Participant/s-interface.png" alt="provided interface" width="200"/>          | Provided Interface        | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+
+## 4 - Drawing a Services Architecture Diagram
+
+### What is a Services Architecture Diagram?
+
+### SoaML Services Arthitecture Diagram Notations
+
+| Notation                                                                                                       | Name                      | Description                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="Images/Notations/Services Architecture/SA.png" alt="Service Interface" width="200"/>                 | Services Architecture     | ServicesArchitecture describes how a network of participants work together by providing and consuming services to fulfill a purpose. Where each services are expressed as service contracts |
+| <img src="Images/Notations/Services Architecture/SC.png" alt="Interface with Consumer Interface" width="200"/> | Internal Service Contract | Service Contract gives a description of how participants should interact in order to enact a service                                                                                        |
+| <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | Internal Participant      | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
+| <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
+| <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+
 # Summary of Notations
 
 ## Services Architecture Diagram Notations
