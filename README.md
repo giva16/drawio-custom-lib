@@ -205,7 +205,7 @@ The SoaML-Participant library enables us to model a Participant as a UML interfa
 | Notation                                                                                                | Name                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ------------------------------------------------------------------------------------------------------- | :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="Images/Notations/Participant/participant.png" alt="participant" width="200"/>                 | Participant                       | The Participant notation is a UML Interface that defines a Participant within a service. This participant may implement a Service Port to provide a service, or implement a Request Port to request and use a service. Participants can be involved in multiple services and may implement multiple Service Ports and Request Ports, assuming the role of a service provider or service consumer in each service.                                                                                                                                            |
-| <img src="Images/Notations/Participant/p-architecture.png" alt="participant architecture" width="200"/> | Participant Services Architecture | This represents the Participant as a UML Composite structure to model how a Participant fullfill their roles in one or multiple Service Contracts in order order to offfer a defined Service, or how the Participant may delegate the the fulfillment of its roles within service contracts to one or multiple other participants. The Participant Services Architecture will then offer the service through a Service Port.                                                                                                                                 |
+| <img src="Images/Notations/Participant/p-architecture.png" alt="participant architecture" width="200"/> | Participant Services Architecture | This represents the Participant as a UML Composite structure to model how a Participant fullfill their roles in one or multiple Service Contracts in order order to offfer a defined Service, or how the Participant may delegate the the fulfillment of its roles within service contracts to one or multiple other participants. The Participant Services Architecture will then offer the service through a Service Port. The Participant Services Architecture must be combined with tools within the soaML-ServicesArchitecture library.                |
 | <img src="Images/Notations/Participant/p-class.png" alt="participant class" width="200"/>               | Participant Class                 | Participants are modeled as UML classes when they are involved in uni-directional services modeled as a Simple Interface Diagram.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <img src="Images/Notations/Participant/bi-port.png" alt="bi-directional port" width="200"/>             | Bi-directional Port               | This representation of a Service Interface and its Required and Provided Interface in a Participant Diagram. The UML Port notation denotes the Service Interface part of a Service Interface while the 2 attached interfaces denotes the specified required and provided interface form the Service Interface Diagram. The "\<\<Stereotype\>\>" label denotes that the Bi-directional Port can be stereotyped as a Service Port representing a Service Interface, or a Request Port representing a conjugated Service Interface being used by a participant. |
 | <img src="Images/Notations/Participant/r-port.png" alt="request port" width="200"/>                     | Request Port                      | This represents a conjugated Service Interface with, the Required Interface of the Request Port is typed by the Provided Interface that a Service Interface Implements.                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -213,22 +213,67 @@ The SoaML-Participant library enables us to model a Participant as a UML interfa
 | <img src="Images/Notations/Participant/r-interface.png" alt="required interface" width="200"/>          | Required Interface                | Represents a point of interaction for another participant that provides the type of the service requested.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | <img src="Images/Notations/Participant/s-interface.png" alt="provided interface" width="200"/>          | Provided Interface                | Represents a point of itneraction for another participant that requests for the type of service provided.                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
+### How to draw a Participant Diagram in diagrams.net
+
+1.  <img src="Images/Tutorial Images/Service Participant/1.gif">
+
+2.  <img src="Images/Tutorial Images/Service Participant/2.gif">
+
+3.  <img src="Images/Tutorial Images/Service Participant/3.gif">
+
+4.  <img src="Images/Tutorial Images/Service Participant/4.gif">
+
+5.  <img src="Images/Tutorial Images/Service Participant/5.gif">
+
+6.  <img src="Images/Tutorial Images/Service Participant/6.gif">
+
+7.  <img src="Images/Tutorial Images/Service Participant/7.gif">
+
+8.  <img src="Images/Tutorial Images/Service Participant/8.gif">
+
+9.  <img src="Images/Tutorial Images/Service Participant/9.gif">
+
+10. <img src="Images/Tutorial Images/Service Participant/10.gif">
+
+11. <img src="Images/Tutorial Images/Service Participant/11.gif">
+
 ## 3 - Drawing a Service Contract Diagram
 
 ### What is a Service Contract Diagram?
 
+To understand what a Service Contract Diagram is, we need to understand the definition of a Service contract within SOA Systems. The Service Contract defines the terms, conditions, and interfaces of participants involved in enacting the service. Additionally, a Service Contract will define the order of participant interactions. The interactions of participants depend on their roles within a service. Each Participant is obliged to participate in enacting a service if they play a role specified by the Service Contract. The service is enacted when all participants have fulfilled their roles within the service by providing or using the signals and operations specified in their interfaces.
+
+Previously, we have learned how to model 2 out of the 3 ways to specify a service (Simple Interface and Service Interface), now we move on to modeling the Service Contract approach for services. The soaML Service Contract Diagram models each Participant's roles within the service specified by the UML collaboration. Additionally, soaML Service Contract Diagrams may be accompanied by the participants that are bound within the Service Contract, which are modeled as interfaces stereotyped by "\<\<Provider\>\>" or "\<\<Consumer\>\>". The accompanying interfaces specify the messages that are exchanged between the participants that are involved in the enactment of the service; the order of the messages exchanged is defined by a UML Sequence Diagram, which usually accompanies a Service Contract Diagram to show the order of interactions between participants in the enactment of a service.
+
+Our soaML-ServiceContract library provides us with the tools to model a Service as a Service Contract Diagram, specifying the participants involved \(shown inside the Service Contract)\ and their roles. The library also provides us with additional notations that extend the capabilities of a UML Sequence Diagram to model the choreography of the service. Furthermore, other libraries, such as the soaML-Participant library and soaML-Interface library, can be utilized to extend the details of the service model by a Service Contract Diagram.
+
 ### SoaML Service Contract Diagram Notations
 
-| Notation                                                                                               | Name                    | Description                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------ | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="Images/Notations/Contract/s-contract.png" alt="service contract" width="200"/>               | Service Contract        | ServicesArchitecture describes how a network of participants work together by providing and consuming services to fulfill a purpose. Where each services are expressed as service contracts |
-| <img src="Images/Notations/Contract/consumer.png" alt="consumer" width="200"/>                         | Consumer Role           | Service Contract gives a description of how participants should interact in order to enact a service                                                                                        |
-| <img src="Images/Notations/Contract/provider.png" alt="provider" width="200"/>                         | Provider Role           | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
-| <img src="Images/Notations/Contract/i-contract.png" alt="nested service contract" width="200"/>        | Nested Service Contract | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
-| <img src="Images/Notations/Contract/s-channel.png" alt="service channel" width="200"/>                 | Service Channel         | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
-| <img src="Images/Notations/Contract/r-binding.png" alt="role binding" width="200"/>                    | Role Binding            | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
-| <img src="Images/Notations/Contract/c-lifeline.png" alt="consumer lifeline" width="100" height="200"/> | Consumer Lifeline       | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
-| <img src="Images/Notations/Contract/p-lifeline.png" alt="provider lifeline" width="100" height="200"/> | Provider Lifeline       | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| Notation                                                                                               | Name                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------ | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="Images/Notations/Contract/s-contract.png" alt="service contract" width="200"/>               | Service Contract        | Represents the Service Contract, defining the roles that participants play within the enactment of a service. The roles of each participant will be contained within this diagram.                                                                                                                                                                                                                                                                       |
+| <img src="Images/Notations/Contract/consumer.png" alt="consumer" width="200"/>                         | Consumer Role           | Represents a Participant Playing the role of the service consumer within the enactment of the service. The semi-circle on the top right denotes that the participant implements the required interface from the perspective of the service provider.                                                                                                                                                                                                     |
+| <img src="Images/Notations/Contract/provider.png" alt="provider" width="200"/>                         | Provider Role           | Represents a Participant Playing the role of the service provider within the enactment of the service. The circle on the top right denotes that the participant implements the provided interface.                                                                                                                                                                                                                                                       |
+| <img src="Images/Notations/Contract/i-contract.png" alt="nested service contract" width="200"/>        | Nested Service Contract | Represents a Service Contract that needs to be fulfilled to fulfill the roles that each Participant in the service play.                                                                                                                                                                                                                                                                                                                                 |
+| <img src="Images/Notations/Contract/s-channel.png" alt="service channel" width="200"/>                 | Service Channel         | This represents a communication channel between the 2 participants. When it connects 2 participants, it denotes that the participants with a service channel between them can exchange messages (signals or operations). The exchange of messages can be further specified in UML behavior diagrams.                                                                                                                                                     |
+| <img src="Images/Notations/Contract/c-lifeline.png" alt="consumer lifeline" width="100" height="200"/> | Consumer Lifeline       | This represents the lifeline of the Consumer participant. We can then model the messages sent by the participant as a solid line with a filled arrow labeled by the operation and pointing away from the participant and toward another participant or itself. The circle on the right is added as an extension to the UML profile. This circle denotes that the participant implements an interface to send the message (operation call) to a provider. |
+| <img src="Images/Notations/Contract/p-lifeline.png" alt="provider lifeline" width="100" height="200"/> | Provider Lifeline       | Represents the lifeline of a Provider participant. Since a provider can make a callback (return message in response to an operation call) to a consumer, this callback message is denoted as a dashed line with an unfilled arrow, labeled by the return message, pointing back towards the caller (consumer). Additionally, a provider can also make a call to another provider; for instance, in a multi-party service.                                |
+
+### How to draw a Service Contract Diagram in diagrams.net
+
+1.  <img src="Images/Tutorial Images/Service Contract/1.gif"/>
+
+2.  <img src="Images/Tutorial Images/Service Contract/2.gif"/>
+
+3.  <img src="Images/Tutorial Images/Service Contract/3.gif"/>
+
+4.  <img src="Images/Tutorial Images/Service Contract/4.gif"/>
+
+5.  <img src="Images/Tutorial Images/Service Contract/5.gif"/>
+
+6.  <img src="Images/Tutorial Images/Service Contract/6.gif"/>
+
+7.  <img src="Images/Tutorial Images/Service Contract/7.png" width="800"/>
 
 ## 4 - Drawing a Services Architecture Diagram
 
@@ -244,68 +289,36 @@ The SoaML-Participant library enables us to model a Participant as a UML interfa
 | <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
 | <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
 
-# Summary of Notations
+### How to draw a Services Architecture Diagram in diagrams.net
 
-## Services Architecture Diagram Notations
+1.  <img src="Images/Tutorial Images/Services Architecture/1.gif"/>
 
-| Notation                                                                                                       | Name                      | Description                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="Images/Notations/Services Architecture/SA.png" alt="Service Interface" width="200"/>                 | Services Architecture     | ServicesArchitecture describes how a network of participants work together by providing and consuming services to fulfill a purpose. Where each services are expressed as service contracts |
-| <img src="Images/Notations/Services Architecture/SC.png" alt="Interface with Consumer Interface" width="200"/> | Internal Service Contract | Service Contract gives a description of how participants should interact in order to enact a service                                                                                        |
-| <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | Internal Participant      | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
-| <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
-| <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+2.  <img src="Images/Tutorial Images/Services Architecture/2.gif"/>
 
-# 1.3 - Service Contract Diagram Notations
+3.  <img src="Images/Tutorial Images/Services Architecture/3.gif"/>
 
-| Notation                                                                                                           |     Name      | Description |
-| ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
-| <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-interface-cport.png" alt="Interface with Consumer Interface" width="200"/> |   centered    |             |
-| <img src="Images/Notations/Interface/si-interface-pport.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
-| <img src="Images/Notations/Interface/simple-interface-c.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
-| <img src="Images/Notations/Interface/simple-interface-p.png" alt="Service Interface" width="200"/>                 |   centered    |             |
-| <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Service Interface" width="200"/>          | right-aligned |             |
-| <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Service Interface" width="200"/>          | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Service Interface" width="200"/>         |   centered    |             |
-| <img src="Images/Notations/service-channel.png" alt="Service Interface" width="200"/>                              | right-aligned |             |
-| <img src="Images/Notations/Interface/realization.png" alt="Service Interface" width="200"/>                        | right-aligned |             |
-| <img src="Images/Notations/Interface/usage.png" alt="Service Interface" width="200"/>                              | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
-| <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
+4.  <img src="Images/Tutorial Images/Services Architecture/4.gif"/>
 
-# 1.4 - Participant Diagram Notations
+5.  <img src="Images/Tutorial Images/Services Architecture/5.gif"/>
 
-| Notation                                                                                                           |     Name      | Description |
-| ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
-| <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-interface-cport.png" alt="Interface with Consumer Interface" width="200"/> |   centered    |             |
-| <img src="Images/Notations/Interface/si-interface-pport.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
-| <img src="Images/Notations/Interface/simple-interface-c.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
-| <img src="Images/Notations/Interface/simple-interface-p.png" alt="Service Interface" width="200"/>                 |   centered    |             |
-| <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Service Interface" width="200"/>          | right-aligned |             |
-| <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Service Interface" width="200"/>          | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Service Interface" width="200"/>         |   centered    |             |
-| <img src="Images/Notations/service-channel.png" alt="Service Interface" width="200"/>                              | right-aligned |             |
-| <img src="Images/Notations/Interface/realization.png" alt="Service Interface" width="200"/>                        | right-aligned |             |
-| <img src="Images/Notations/Interface/usage.png" alt="Service Interface" width="200"/>                              | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
-| <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
+6.  <img src="Images/Tutorial Images/Services Architecture/6.gif"/>
 
-# 1.5 - Miscellaneous Notations
+7.  <img src="Images/Tutorial Images/Services Architecture/7.gif"/>
 
-| Notation                                                                                                           |     Name      | Description |
-| ------------------------------------------------------------------------------------------------------------------ | :-----------: | ----------- |
-| <img src="Images/Notations/Interface/service-interface.png" alt="Service Interface" width="200"/>                  | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-interface-cport.png" alt="Interface with Consumer Interface" width="200"/> |   centered    |             |
-| <img src="Images/Notations/Interface/si-interface-pport.png" alt="Service Interface" width="200"/>                 | right-aligned |             |
-| <img src="Images/Notations/Interface/simple-interface-c.png" alt="Service Interface" width="200"/>                 | left-aligned  |             |
-| <img src="Images/Notations/Interface/simple-interface-p.png" alt="Service Interface" width="200"/>                 |   centered    |             |
-| <img src="Images/Notations/Interface/si-participant-cinterface.png" alt="Service Interface" width="200"/>          | right-aligned |             |
-| <img src="Images/Notations/Interface/si-participant-pinterface.png" alt="Service Interface" width="200"/>          | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-participant-nointerface.png" alt="Service Interface" width="200"/>         |   centered    |             |
-| <img src="Images/Notations/service-channel.png" alt="Service Interface" width="200"/>                              | right-aligned |             |
-| <img src="Images/Notations/Interface/realization.png" alt="Service Interface" width="200"/>                        | right-aligned |             |
-| <img src="Images/Notations/Interface/usage.png" alt="Service Interface" width="200"/>                              | left-aligned  |             |
-| <img src="Images/Notations/Interface/si-signal.png" alt="Service Interface" width="200"/>                          |   centered    |             |
-| <img src="Images/Notations/Interface/op-public.png" alt="Service Interface" width="200"/>                          | right-aligned |             |
+8.  <img src="Images/Tutorial Images/Services Architecture/8.gif"/>
+
+9.  <img src="Images/Tutorial Images/Services Architecture/9.gif"/>
+
+10. <img src="Images/Tutorial Images/Services Architecture/10.gif"/>
+
+11. <img src="Images/Tutorial Images/Services Architecture/11.gif"/>
+
+12. <img src="Images/Tutorial Images/Services Architecture/12.png"/>
+
+13. <img src="Images/Tutorial Images/Services Architecture/13.png"/>
+
+14. <img src="Images/Tutorial Images/Services Architecture/14.png"/>
+
+15. <img src="Images/Tutorial Images/Services Architecture/15.png"/>
+
+# soaML Templates
