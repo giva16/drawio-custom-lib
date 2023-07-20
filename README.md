@@ -194,6 +194,10 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 
 ### What is a Participant Diagram?
 
+<img src="Images/Tutorial Images/Service Participant/template-participant.png" width="500" height="200">
+
+**Figure 2: Participant Diagrams for a Service Provider named "Environmental Agency" and a Service Consumer named "Municipality"**
+
 Service Participant Diagrams model the Participants that are defined by a Service Interface Diagram or a Simple Interface Diagram. Each participant represents software components, organizations, systems, or individuals that provide and use services. The ports of each Participant and their interfaces represent a service that is being offered or requested.
 
 This diagram acts as an extension to the Service Interface Diagram, representing the roles that are defined as Participants represented by a UML Interface diagram stereotyped by "\<\<Participant\>\>". While the Service Interface Diagram is modeled from the perspective of the service provider, the Participant Diagram is drawn from perspectives of each participants, where the Participant providing a service implements the Service Interface as its Service Port, and the specified Required Interface and Provided Interface from the Service Interface Diagram as the Required Interface and Provided Interface of its service port respectively. On the other hand, the Participant using the service will conjugate the modeled Service Interface Diagram, using the Service Interface as a Request Port, and implementing the Required Interface as the Provided Interface of its Request Port.
@@ -215,23 +219,26 @@ The SoaML-Participant library enables us to model a Participant as a UML interfa
 
 ### How to draw a Participant Diagram in diagrams.net
 
-1.  <img src="Images/Tutorial Images/Service Participant/1.gif">
+1. Continuing from our modelling of the Service Interface Diagram, create a new page for the Participant Diagrams, name this page after the diagram you are trying to model (i.e. "Participant Diagram").
+   <img src="Images/Tutorial Images/Service Participant/1.gif">
 
-2.  <img src="Images/Tutorial Images/Service Participant/2.gif">
+2. Our first step to drawing the diagram is to add a Participant, navigate to the SoaML-Participant library, select "Participant" and drag in onto the canvas.
+   <img src="Images/Tutorial Images/Service Participant/2.gif">
 
-3.  <img src="Images/Tutorial Images/Service Participant/3.gif">
+3. We will be modeling the Service Consuming Participant, name this participant "Municipality". This Participant will consumer the "Eco-Statistics" Service provided by the Service Provider.
+   <img src="Images/Tutorial Images/Service Participant/3.gif">
 
-4.  <img src="Images/Tutorial Images/Service Participant/4.gif">
+4. <img src="Images/Tutorial Images/Service Participant/4.gif">
 
-5.  <img src="Images/Tutorial Images/Service Participant/5.gif">
+5. <img src="Images/Tutorial Images/Service Participant/5.gif">
 
-6.  <img src="Images/Tutorial Images/Service Participant/6.gif">
+6. <img src="Images/Tutorial Images/Service Participant/6.gif">
 
-7.  <img src="Images/Tutorial Images/Service Participant/7.gif">
+7. <img src="Images/Tutorial Images/Service Participant/7.gif">
 
-8.  <img src="Images/Tutorial Images/Service Participant/8.gif">
+8. <img src="Images/Tutorial Images/Service Participant/8.gif">
 
-9.  <img src="Images/Tutorial Images/Service Participant/9.gif">
+9. <img src="Images/Tutorial Images/Service Participant/9.gif">
 
 10. <img src="Images/Tutorial Images/Service Participant/10.gif">
 
