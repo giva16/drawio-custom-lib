@@ -325,32 +325,37 @@ Our SoaML-ServiceContract library provides us with the tools to model a Service 
 7. In order to extend the Service Contract Diagram's definition of the service, we can add a **UML Sequence Diagram** or a set of **UML Interfaces** showing the operations that each of Participants expect from one another depending on their roles, as shown in the **Required Interface** and **Provided Interface** in the Service Interface Diagram. The figure shown below serve to remind us of the **Required Interface** and **Provided Interface** that we have modeled in the Service Interface Diagram.<br><br>
    <img src="Images/Tutorial Images/Service Contract/interfaces.png" width="500"/>
 
-8. To specify the Choreography of the Service, we need to model a **UML Sequence Diagram\*** that shows the order of interactions between the Participants in the enactment of the service. First, we need to specify the Consumer's Lifeline. Navigate to the **"SoaML-ServiceContract"** library, select the **"Consumer Lifeline"** element, and drag it onto the canvas.<br><br>
+8. To specify the Choreography of the Service, we need to model a **UML Sequence Diagram** that shows the order of interactions between the Participants in the enactment of the service. First, we need to specify the Consumer's Lifeline. Navigate to the **"SoaML-ServiceContract"** library, select the **"Consumer Lifeline"** element, and drag it onto the canvas.<br><br>
    <img src="Images/Tutorial Images/Service Contract/8.gif"/><br><br>
 
-9. <img src="Images/Tutorial Images/Service Contract/9.gif" width="800"/>
+9. Give the **Consumer Lifeline** a role type of "StatConsumer" since the consumer role is typed by the **Required Interface** of the service.<br><br>
+   For readability purposes, we can omit the role name itself (i.e ": StatConsumer" instead of "Consumer: StatConsumer").<br><br>
+   <img src="Images/Tutorial Images/Service Contract/9.gif"/>
 
-10. <img src="Images/Tutorial Images/Service Contract/10.gif" width="800"/>
+10. Specify the **Provider Lifeline** by navigating to the **"SoaML-ServiceContract"** library, selecing the **"Provider Lifeline"** element, and dragging it onto the canvas.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/10.gif"/><br><br>
 
-11. <img src="Images/Tutorial Images/Service Contract/11.gif" width="800"/>
+11. Give the role a type of "StatCenter" since it is typed by the **Provided Interface** of the service. Use the same naming convention as step 10.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/11.gif"/>
 
-12. <img src="Images/Tutorial Images/Service Contract/12.gif" width="800"/>
+12. You may have to adjust the length of the Lifelines, do so by dragging the bottom of the Lifeline as shown below.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/12.gif"/>
 
-13. <img src="Images/Tutorial Images/Service Contract/13.gif" width="800"/>
+13. Add the activation bars to the Lifelines, these activation bars indicate the duration that a Participant is active in the enactment of the service. To do this, navigate to the **"UML"** library, select the **"Activation Bar"** element, and drag it onto the Lifeline.<br><br>For our case, the Service Provider will no longer be active once it has sent the callback message. Therefore, we need to make the Provider's **Activation Bar** end upon the receipt of the callback message by the consumer. However, the Consumer may still be active after it has received a call back message since it might want to perform tasks involving the returned data carried int he callback message. So we'll have to make the Consumer's **Activation Bar** longer than the Provider's <br><br>
+    <img src="Images/Tutorial Images/Service Contract/13.gif" width="400"/>
+    <img src="Images/Tutorial Images/Service Contract/14.gif" width="400"/>
 
-14. <img src="Images/Tutorial Images/Service Contract/14.gif" width="800"/>
+14. <img src="Images/Tutorial Images/Service Contract/15.gif"/>
 
-15. <img src="Images/Tutorial Images/Service Contract/15.gif" width="800"/>
+15. <img src="Images/Tutorial Images/Service Contract/16.gif"/>
 
-16. <img src="Images/Tutorial Images/Service Contract/16.gif" width="800"/>
+16. <img src="Images/Tutorial Images/Service Contract/17.gif"/>
 
-17. <img src="Images/Tutorial Images/Service Contract/17.gif" width="800"/>
+17. <img src="Images/Tutorial Images/Service Contract/18.gif"/>
 
-18. <img src="Images/Tutorial Images/Service Contract/18.gif" width="800"/>
+18. <img src="Images/Tutorial Images/Service Contract/19.gif"/>
 
-19. <img src="Images/Tutorial Images/Service Contract/19.gif" width="800"/>
-
-20. <img src="Images/Tutorial Images/Service Contract/template-choreography-small.png" width="800"/>
+19. <img src="Images/Tutorial Images/Service Contract/template-choreography-small.png" width="800"/>
 
 ## 4 - Drawing a Services Architecture Diagram
 
