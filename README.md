@@ -154,10 +154,10 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 2. Rename the page to any name you want (i.e. Service Interface Diagram).<br><br>
    <img src="Images/Tutorial Images/Service Interface/1.gif"><br><br>
 
-3. We will be drawing the Service Interface Diagram for a bi-directional **"Eco-Statistics Service"**, a service within the "CityCar2Go" service network. Start by navigating to the **SoaML-Interface** Library an selecting the **"Service Interface"** element. Drag and drop the element onto the canvas.<br><br
-   <img src="Images/Tutorial Images/Service Interface/2.gif">
+3. We will be drawing the Service Interface Diagram for a bi-directional **"Eco-Statistics Service"**, a service within the "CityCar2Go" service network. Start by navigating to the **SoaML-Interface** Library an selecting the **"Service Interface"** element. Drag and drop the element onto the canvas.<br><br>
+   <img src="Images/Tutorial Images/Service Interface/2.gif"><br><br>
 
-4. Rename the **Service Interface** element to "Eco-Statistics Service".
+4. Rename the **Service Interface** element to "Eco-Statistics Service".<br><br>
    <img src="Images/Tutorial Images/Service Interface/3.gif"><br><br>
 
 5. Next, we want to specify the **Provided Interface** that the service provider implements. To do this, navigate to the **SoaML-Interface** Library and select the **"Provided Interface"** element. Drag and drop the element onto the canvas, above the **Service Interface** Element. Give the **Provided Interface** the name "StatCenter", this will be the type of the Service Provider's role.<br><br>
@@ -176,7 +176,7 @@ Overall, the Service Interface Diagram defines the interactions between all of t
    <img src="Images/Tutorial Images/Service Interface/8.gif"><br><br>
 
 10. The Required Interface should specify the set of messages that the service provider can send back to the consumer. Our Required Interface for the "Eco-Statistics" Service must specify the public operations "stat()" and "fullReport()" to denote the service provider returning of the requested data to the service consumer. To specify the first operation, rename the Signal element inside the Required Interface to "stat()".<br><br>
-    <img src="Images/Tutorial Images/**Service Interface**/9.gif"><br><br>
+    <img src="Images/Tutorial Images/Service Interface/9.gif"><br><br>
 
 11. Then, we need to add another operation to the required interface for the "fullReport()" operation. To do this, navigate to the **SoaML-Interface** Library and select the "Signal" element. Drag and drop the element onto the Required Interface, below the "+stat()" operation. Rename the Signal element to "+fullReport()".<br><br>
     <img src="Images/Tutorial Images/Service Interface/10.gif"><br><br>
