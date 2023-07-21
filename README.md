@@ -315,11 +315,42 @@ Our SoaML-ServiceContract library provides us with the tools to model a Service 
 4. Give it a role "Consumer" and type the role as "StatConsumer", this is the name of the **Required Interface** that we have specified in Part 1 of the tutorial. Recall that the role of a Participant is typed by the Interface that they implement.<br><br>
    <img src="Images/Tutorial Images/Service Contract/4.gif"/>
 
-5. <img src="Images/Tutorial Images/Service Contract/5.gif"/>
+5. Next, we will specify the Provider Participant's role in the Service by navigating to the **"SoaML-ServiceContract"** library and dragging the **"Provider Role"** element into the right side of the **Service Contract**.<br><br>Name the role as "Provider" and type the role as "StatProvider", since the **Provided Interface** of a Provider Participant types the role of the Provider.<br><br>
+   <img src="Images/Tutorial Images/Service Contract/5.gif"/><br><br>
 
-6. <img src="Images/Tutorial Images/Service Contract/6.gif"/>
+6. Finally, we must now model the establishment of a **Service Channel** between the 2 Participants involved in the enactment of the service. To do this, navigate to the **"SoaML-ServiceContract"** library and drag the **"Service Channel"** element onto the canvas and connect the **Consumer Role** and **Provider Role** with the **Service Channel**. Delete the label to make the diagram more readable.<br><br>
+   <img src="Images/Tutorial Images/Service Contract/6.gif"/><br>
+   We have modeled a Service Contract that defines the "Eco-Statistics" service, showing the roles that each Participant plays in the enactment of the service. Additionally, we can accompany a Service Contract Diagram with a UML Sequence Diagram to show the order of interactions between the Participants in the enactment of the service.<br><br>
 
-7. <img src="Images/Tutorial Images/Service Contract/7.png" width="800"/>
+7. In order to extend the Service Contract Diagram's definition of the service, we can add a **UML Sequence Diagram** or a set of **UML Interfaces** showing the operations that each of Participants expect from one another depending on their roles, as shown in the **Required Interface** and **Provided Interface** in the Service Interface Diagram. The figure shown below serve to remind us of the **Required Interface** and **Provided Interface** that we have modeled in the Service Interface Diagram.<br><br>
+   <img src="Images/Tutorial Images/Service Contract/interfaces.png" width="500"/>
+
+8. To specify the Choreography of the Service, we need to model a **UML Sequence Diagram\*** that shows the order of interactions between the Participants in the enactment of the service. First, we need to specify the Consumer's Lifeline. Navigate to the **"SoaML-ServiceContract"** library, select the **"Consumer Lifeline"** element, and drag it onto the canvas.<br><br>
+   <img src="Images/Tutorial Images/Service Contract/8.gif"/><br><br>
+
+9. <img src="Images/Tutorial Images/Service Contract/9.gif" width="800"/>
+
+10. <img src="Images/Tutorial Images/Service Contract/10.gif" width="800"/>
+
+11. <img src="Images/Tutorial Images/Service Contract/11.gif" width="800"/>
+
+12. <img src="Images/Tutorial Images/Service Contract/12.gif" width="800"/>
+
+13. <img src="Images/Tutorial Images/Service Contract/13.gif" width="800"/>
+
+14. <img src="Images/Tutorial Images/Service Contract/14.gif" width="800"/>
+
+15. <img src="Images/Tutorial Images/Service Contract/15.gif" width="800"/>
+
+16. <img src="Images/Tutorial Images/Service Contract/16.gif" width="800"/>
+
+17. <img src="Images/Tutorial Images/Service Contract/17.gif" width="800"/>
+
+18. <img src="Images/Tutorial Images/Service Contract/18.gif" width="800"/>
+
+19. <img src="Images/Tutorial Images/Service Contract/19.gif" width="800"/>
+
+20. <img src="Images/Tutorial Images/Service Contract/template-choreography-small.png" width="800"/>
 
 ## 4 - Drawing a Services Architecture Diagram
 
