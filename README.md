@@ -28,13 +28,13 @@ These libraries provide the user with the ability to specify services from diffe
 
   - [What to expect from this tutorial?](#what-to-expect-from-this-tutorial)
 
-  - [Drawing Service Interface Diagrams](#drawing-service-interface-diagrams)
+  - [Drawing Service Interface Diagrams](#1-drawing-service-interface-diagrams)
 
-  - [Drawing Participant Diagrams](#drawing-participant-diagrams)
+  - [Drawing Participant Diagrams](#2-drawing-participant-diagrams)
 
-  - [Drawing Service Contract Diagrams](#drawing-service-contract-diagrams)
+  - [Drawing Service Contract Diagrams](#3-drawing-service-contract-diagrams)
 
-  - [Drawing Services Architecture Diagrams](#drawing-services-architecture-diagrams)
+  - [Drawing Services Architecture Diagrams](#4-drawing-services-architecture-diagrams)
 
 - [SoaML Templates](#soaml-templates)
 
@@ -110,7 +110,7 @@ Throughout the tutorials, GIF animations will be used to provide the user with a
 
 **Note:** viewing the GIF animations in full screen by clicking will provide a better quality viewing experience.
 
-## 1 - Drawing a Service Interface Diagram
+## 1. Drawing Service Interface Diagrams
 
 ### What is a Service Interface Diagram?
 
@@ -196,7 +196,7 @@ Overall, the Service Interface Diagram defines the interactions between all of t
 16. We have now completed the **Service Interface** Diagram for the "Eco-Statistics" Service. Save the diagram by going to File > Save As... then selecting the location you want to save the diagram and the format that you want to save the diagram as.<br><br>
     <img src="Images/Tutorial Images/Service Interface/15.png" width="400px"><br><br>
 
-## 2 - Drawing a Particpant Diagram
+## 2. Drawing Particpant Diagrams
 
 ### What is a Participant Diagram?
 
@@ -270,7 +270,7 @@ The **SoaML-Participant** library enables us to model a Participant as a UML int
 12. We can now connect the compatible interfaces of the 2 Participants to represent an interacting pair of Participants within the "Eco-Statistics" Service. These Participants will interact by using or providing capabilities to each other, which will then progress to fulfilling a service, which can be a goal tied to a business. <br><br>
     <img src="Images/Tutorial Images/Service Participant/12.gif"><br><br>
 
-## 3 - Drawing a Service Contract Diagram
+## 3. Drawing Service Contract Diagrams
 
 ### What is a Service Contract Diagram?
 
@@ -306,30 +306,30 @@ Our SoaML-ServiceContract library provides us with the tools to model a Service 
 
 1. Start by creating a new page or new diagram and name it "Service Contract Diagram".<br><br>
 
-2. In this tutorial, we will define the "Eco-Statistics" service through the third approach to defining services in SOA known as the "Contract Based Approach". To start off, lets add the Service Contract UML collaboration to the canvas.<br><br>Navigate to the **"SoaML-ServiceContract"** library and drag the **"Service Contract"** element onto the canvas and name the **Service Contract** "Eco-Statistics".<br><br>
+2. In this tutorial, we will define the "Eco-Statistics" service through the third approach to defining services in SOA, known as the "Contract-Based Approach". To start off, let's add the Service Contract UML collaboration to the canvas.<br><br>Navigate to the **"SoaML-ServiceContract"** library and drag the **"Service Contract"** element onto the canvas and name the **Service Contract** "Eco-Statistics".<br><br>
    <img src="Images/Tutorial Images/Service Contract/2.gif"/>
 
-3. As previously specified by the **Service Interface** approach to defining the "Eco-Statistics" service, there were 2 **Participant Roles** in the service. We will have to specify this also for the **Service Contract** Approach.<br><br>Specify the Consumer Participant's role in the Service by navigating to the **"SoaML-ServiceContract"** library and dragging the **"Consumer Role"** element into the left side of the **Service Contract**.<br><br>
+3. As previously specified by the **Service Interface** approach to defining the "Eco-Statistics" service, there were 2 **Participant Roles** in the service. We will have to specify this also for the **Service Contract** Approach.<br><br>Specify the Consumer Participant's role in the service by navigating to the **"SoaML-ServiceContract"** library and dragging the **"Consumer Role"** element into the left side of the **Service Contract**.<br><br>
    <img src="Images/Tutorial Images/Service Contract/3.gif"/>
 
-4. Give it a role "Consumer" and type the role as "StatConsumer", this is the name of the **Required Interface** that we have specified in Part 1 of the tutorial. Recall that the role of a Participant is typed by the Interface that they implement.<br><br>
+4. Give it a role "Consumer" and type the role as "StatConsumer"; this is the name of the **Required Interface** that we have specified in Part 1 of the tutorial. Recall that the role of a Participant is typed by the Interface that they implement.<br><br>
    <img src="Images/Tutorial Images/Service Contract/4.gif"/>
 
-5. Next, we will specify the Provider Participant's role in the Service by navigating to the **"SoaML-ServiceContract"** library and dragging the **"Provider Role"** element into the right side of the **Service Contract**.<br><br>Name the role as "Provider" and type the role as "StatProvider", since the **Provided Interface** of a Provider Participant types the role of the Provider.<br><br>
+5. Next, we will specify the Provider Participant's role in the service by navigating to the **"SoaML-ServiceContract"** library and dragging the **"Provider Role"** element into the right side of the **Service Contract**.<br><br>Name the role as "Provider" and type the role as "StatProvider", since the **Provided Interface** of a Provider Participant types the role of the Provider.<br><br>
    <img src="Images/Tutorial Images/Service Contract/5.gif"/><br><br>
 
-6. Finally, we must now model the establishment of a **Service Channel** between the 2 Participants involved in the enactment of the service. To do this, navigate to the **"SoaML-ServiceContract"** library and drag the **"Service Channel"** element onto the canvas and connect the **Consumer Role** and **Provider Role** with the **Service Channel**. Delete the label to make the diagram more readable.<br><br>
+6. Finally, we must now model establishing a **Service Channel** between the 2 Participants involved in enacting the service. To do this, navigate to the **"SoaML-ServiceContract"** library, drag the **"Service Channel"** element onto the canvas, and connect the **Consumer Role** and **Provider Role** with the **Service Channel**. Delete the label to make the diagram more readable.<br><br>
    <img src="Images/Tutorial Images/Service Contract/6.gif"/><br>
-   We have modeled a Service Contract that defines the "Eco-Statistics" service, showing the roles that each Participant plays in the enactment of the service. Additionally, we can accompany a Service Contract Diagram with a UML Sequence Diagram to show the order of interactions between the Participants in the enactment of the service.<br><br>
+   We have modeled a Service Contract that defines the "Eco-Statistics" service, showing each Participant's role in enacting the service. Additionally, we can accompany a Service Contract Diagram with a UML Sequence Diagram to show the order of interactions between the Participants in the enactment of the service.<br><br>
 
-7. In order to extend the Service Contract Diagram's definition of the service, we can add a **UML Sequence Diagram** or a set of **UML Interfaces** showing the operations that each of Participants expect from one another depending on their roles, as shown in the **Required Interface** and **Provided Interface** in the Service Interface Diagram. The figure shown below serve to remind us of the **Required Interface** and **Provided Interface** that we have modeled in the Service Interface Diagram.<br><br>
+7. To extend the Service Contract Diagram's definition of the service, we can add a **UML Sequence Diagram** or a set of **UML Interfaces** showing the operations that each of the Participants expect from one another depending on their roles, as shown in the **Required Interface** and **Provided Interface** in the Service Interface Diagram. The figure shown below serves to remind us of the **Required Interface** and **Provided Interface** that we have modeled in the Service Interface Diagram.<br><br>
    <img src="Images/Tutorial Images/Service Contract/interfaces.png" width="500"/>
 
 8. To specify the Choreography of the Service, we need to model a **UML Sequence Diagram** that shows the order of interactions between the Participants in the enactment of the service. First, we need to specify the Consumer's Lifeline. Navigate to the **"SoaML-ServiceContract"** library, select the **"Consumer Lifeline"** element, and drag it onto the canvas.<br><br>
    <img src="Images/Tutorial Images/Service Contract/8.gif"/><br><br>
 
 9. Give the **Consumer Lifeline** a role type of "StatConsumer" since the consumer role is typed by the **Required Interface** of the service.<br><br>
-   For readability purposes, we can omit the role name itself (i.e ": StatConsumer" instead of "Consumer: StatConsumer").<br><br>
+   For readability purposes, we can omit the role name itself (i.e. ": StatConsumer" instead of "Consumer: StatConsumer").<br><br>
    <img src="Images/Tutorial Images/Service Contract/9.gif"/>
 
 10. Specify the **Provider Lifeline** by navigating to the **"SoaML-ServiceContract"** library, selecing the **"Provider Lifeline"** element, and dragging it onto the canvas.<br><br>
@@ -338,28 +338,45 @@ Our SoaML-ServiceContract library provides us with the tools to model a Service 
 11. Give the role a type of "StatCenter" since it is typed by the **Provided Interface** of the service. Use the same naming convention as step 10.<br><br>
     <img src="Images/Tutorial Images/Service Contract/11.gif"/>
 
-12. You may have to adjust the length of the Lifelines, do so by dragging the bottom of the Lifeline as shown below.<br><br>
+12. You may have to adjust the length of the Lifelines by dragging the bottom of the Lifeline, as shown below.<br><br>
     <img src="Images/Tutorial Images/Service Contract/12.gif"/>
 
-13. Add the activation bars to the Lifelines, these activation bars indicate the duration that a Participant is active in the enactment of the service. To do this, navigate to the **"UML"** library, select the **"Activation Bar"** element, and drag it onto the Lifeline.<br><br>For our case, the Service Provider will no longer be active once it has sent the callback message. Therefore, we need to make the Provider's **Activation Bar** end upon the receipt of the callback message by the consumer. However, the Consumer may still be active after it has received a call back message since it might want to perform tasks involving the returned data carried int he callback message. So we'll have to make the Consumer's **Activation Bar** longer than the Provider's <br><br>
-    <img src="Images/Tutorial Images/Service Contract/13.gif" width="400"/>
-    <img src="Images/Tutorial Images/Service Contract/14.gif" width="400"/>
+13. Add the activation bars to the Lifelines. These activation bars indicate the duration that a Participant is active in enacting the service. To do this, navigate to the **"UML"** library, select the **"Activation Bar"** element, and drag it onto the Lifeline.<br><br>For our case, the Service Provider will no longer be active once it has sent the callback message. Therefore, we must make the Provider's **Activation Bar** end upon the Consumer's receipt of the callback message. However, the Consumer may still be active after it has received a callback message since it might want to perform tasks involving the returned data carried in the callback message. So we'll have to make the Consumer's **Activation Bar** longer.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/13.gif" width="360"/>
+    <img src="Images/Tutorial Images/Service Contract/14.gif" width="360"/>
 
-14. <img src="Images/Tutorial Images/Service Contract/15.gif"/>
+14. To model the sending of a message from the Consumer to the Provider, navigate to the **"UML"** library, select the **"Message"** element, and drag it onto the canvas. Connect the **Consumer Lifeline** to the **Provider Lifeline** with the **Message** arrow.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/15.gif"/><br><br>
 
-15. <img src="Images/Tutorial Images/Service Contract/16.gif"/>
+15. Name this message "requestStat", and give it a number "1" to denote that it is the first interaction between the 2 participants.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/16.gif"/><br><br>
 
-16. <img src="Images/Tutorial Images/Service Contract/17.gif"/>
+16. Next, we'll need to model the callback from the Provider to the Consumer. To model this, navigate to the **"UML"** library, select the **"Return"** element, and drag it onto the canvas. Connect the **Provider Lifeline** to the **Consumer Lifeline** with the arrow pointing towards the **Consumer Lifeline** arrow.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/17.gif"/><br><br>
 
-17. <img src="Images/Tutorial Images/Service Contract/18.gif"/>
+17. Name this return message "stat" to denote the Provider returning data which shows the statistic requested by the Consumer, and give it a number "2" to denote that it is the second interaction between the 2 participants.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/18.gif"/><br><br>
 
-18. <img src="Images/Tutorial Images/Service Contract/19.gif"/>
+18. Interactions number 1 and 2 are optional (refer to step 6 of Part 1). We'll need to model this by containing the interactions, a section of the Lifeline, and the activation bars within an **"Opt"** **Frame**. To do this, navigate to the **"UML"** library, select the **Frame** element, and drag it onto the canvas; make sure that it covers the part of the **Lifeline** and the **Activation Bars** involved in the interactions. Name the **Frame** as **"Opt"** <br><br>
+    <img src="Images/Tutorial Images/Service Contract/19.gif"/><br><br>
 
-19. <img src="Images/Tutorial Images/Service Contract/template-choreography-small.png" width="800"/>
+19. The required interactions between the 2 participants are the **"requestFullReport"**, denoting the Consumer requesting a full report on Environmental Statistics from the Provider, and **fullReport**, and the Provider returning the requested document to the Consumer.<br><br>
+    Modeling the required interaction will result in the UML Sequence Diagram shown below.<br><br>
+    <img src="Images/Tutorial Images/Service Contract/template-choreography-small.png" width="400"/>
 
-## 4 - Drawing a Services Architecture Diagram
+### More on Service Contract Diagrams
+
+---
+
+The service contract we modeled in this tutorial was 1 of the three services involved in the "CityCar2GO" service network. The other 2 services are the "Location Awareness" and the "Banking" services. The video tutorial for the Service Oriented Design course will cover how to model all three service contracts and export the diagram as an image and save it as a template. Be sure to Check it out!
+
+## 4. Drawing Services Architecture Diagrams
 
 ### What is a Services Architecture Diagram?
+
+The SoaML Services Architecture Diagram models the network of Participants collaborating in a community, it is a UML collaboration diagram that models the internal structure of a SOA System, showing how each participants consume and use services to fulfill a purpose. The Services Architecture Network defines the requirements of each Participant to realize a service depending on their roles. Each Participant is bound to a Services Architecture by their role in it but is not limited to just one Services Architecture. For instance, multiple Services Architecture Networks may use the same Participant to fulfill a Service Contract that requires the same Participant to fulfill the same role. Overall, the Services Architecture Diagram provides the highest level view of how each independent Participants work together to achieve a mutual goal.
+
+The **SoaML-ServicesArchitecture** library lets us specify the Participants involved in a Services Architecture Network (external and internal) and how their role binds them to the network to show each Participant in a community would collaborate to fulfill a mutual goal.
 
 ### SoaML Services Arthitecture Diagram Notations
 
