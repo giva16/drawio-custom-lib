@@ -27,16 +27,18 @@ These libraries provide the user with the ability to specify services from diffe
 - [Drawing SoaML Diagrams in Diagrams.net](#drawing-soaml-diagrams-in-diagramsnet)
 
   - [What to expect from this tutorial?](#what-to-expect-from-this-tutorial)
-
   - [Drawing Service Interface Diagrams](#1-drawing-service-interface-diagrams)
-
   - [Drawing Participant Diagrams](#2-drawing-participant-diagrams)
-
   - [Drawing Service Contract Diagrams](#3-drawing-service-contract-diagrams)
-
   - [Drawing Services Architecture Diagrams](#4-drawing-services-architecture-diagrams)
+    <br><br>
 
 - [SoaML Templates](#soaml-templates)
+
+- [Video Tutorials](#video-tutorials)
+  - [Introduction to the SoaML Extension for Diagrams.net](#introduction-to-the-soaml-extension-for-diagramsnet)
+  - [Drawing Service Contract Diagrams](#drawing-service-contract-diagrams)
+  - [Drawing Services Architecture Diagrams](#drawing-services-architecture-diagrams)
 
 # What is SoaML?
 
@@ -374,48 +376,81 @@ The service contract we modeled in this tutorial was 1 of the three services inv
 
 ### What is a Services Architecture Diagram?
 
+<img src="images/Tutorial Images/Services Architecture/template-architecture.png" width="800">
+
+**Figure 4: Services Architecture Diagram for the "CityCar2Go" Service Network**
+
 The SoaML Services Architecture Diagram models the network of Participants collaborating in a community, it is a UML collaboration diagram that models the internal structure of a SOA System, showing how each participants consume and use services to fulfill a purpose. The Services Architecture Network defines the requirements of each Participant to realize a service depending on their roles. Each Participant is bound to a Services Architecture by their role in it but is not limited to just one Services Architecture. For instance, multiple Services Architecture Networks may use the same Participant to fulfill a Service Contract that requires the same Participant to fulfill the same role. Overall, the Services Architecture Diagram provides the highest level view of how each independent Participants work together to achieve a mutual goal.
 
 The **SoaML-ServicesArchitecture** library lets us specify the Participants involved in a Services Architecture Network (external and internal) and how their role binds them to the network to show each Participant in a community would collaborate to fulfill a mutual goal.
 
 ### SoaML Services Arthitecture Diagram Notations
 
-| Notation                                                                                                       | Name                      | Description                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="Images/Notations/Services Architecture/SA.png" alt="Service Interface" width="200"/>                 | Services Architecture     | ServicesArchitecture describes how a network of participants work together by providing and consuming services to fulfill a purpose. Where each services are expressed as service contracts |
-| <img src="Images/Notations/Services Architecture/SC.png" alt="Interface with Consumer Interface" width="200"/> | Internal Service Contract | Service Contract gives a description of how participants should interact in order to enact a service                                                                                        |
-| <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | Internal Participant      | Internal role within a services architecture, where the role of a participant is typed by the interface that they implement                                                                 |
-| <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | External role that is involved in the services architecture. Role of participant is typed by the interface that they implement                                                              |
-| <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture. Giving the participant its role within the Services Architecture         |
+| Notation                                                                                                       | Name                      | Description                                                                                                                                                                                                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------- | :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="Images/Notations/Services Architecture/SA.png" alt="Service Interface" width="200"/>                 | Services Architecture     | ServicesArchitecture describes how a network of Participants work together by providing and consuming services to fulfill a mutual goal. Participants from outside and inside the Services Architecture may be bound to the Services Architecture Network depending on their role. Services are defined as Service Contracts within this diagram and Participants fulfill the services through their roles. |
+| <img src="Images/Notations/Services Architecture/SC.png" alt="Interface with Consumer Interface" width="200"/> | Internal Service Contract | This denotes a Service that is a part of the Services Architecture Network. Participants are bound to the Services Architecture due to the Service Contracts that are involved in the network. For clarity, **"\<\<Service Contract\>\>"** stereotype is included.                                                                                                                                          |
+| <img src="Images/Notations/Services Architecture/PI.png" alt="Service Interface" width="200"/>                 | Internal Participant      | This denotes a Participant belonging within the Services Architecture that they are bound to. The role of the Participant is typed by the Provided Interface they implement. For the sake of readability and clarity, the Participants are modeled as UML classes stereotyped by **"\<\<Participant\>\>"** and only their role type is included in the labeling                                             |
+| <img src="Images/Notations/Services Architecture/PE.png" alt="Service Interface" width="200"/>                 | External Participant      | This represents a borrowed Participant belonging to another Services Architecture. This Participant is bound to the Services Architecture we are modeling due to the fact that their role type bounds them to one of the Service Contracts specified in the Services Architecture Network.                                                                                                                  |
+| <img src="Images/Notations/Services Architecture/role-binding.PNG" alt="Service Interface" width="200"/>       | Role Binding              | A role binding attaches a participant with a compatible interface to the service contract within the architecture; describing their role in fulfilling a service.                                                                                                                                                                                                                                           |
 
-### How to draw a Services Architecture Diagram in diagrams.net
+### How to draw a Services Architecture Diagram in diagrams.
 
-1.  <img src="Images/Tutorial Images/Services Architecture/1.gif"/>
+1. To model the "CityCar2Go" Service Network, we will need to model its Services Architecture Diagram. Start by navigating to the **"SoaML-ServicesArchitecture"** library, then drag the **"Services Architecture"** element onto the canvas.<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/1.gif"/><br><br>
 
-2.  <img src="Images/Tutorial Images/Services Architecture/2.gif"/>
+2. We must name the Services Architecture Diagram after the Network that we are trying to model, give the **Services Architecture** the name "CityCar2Go".<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/2.gif"/><br><br>
 
-3.  <img src="Images/Tutorial Images/Services Architecture/3.gif"/>
+3. First, we will specify the "Eco-Statistics" service and how its participants fulfill it within the Services Architecture Network. To do this, navigate to the **SoaML-ServicesArchitecture** library, then drag the **"Participant"** element into the **Services Architecture**.<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/3.gif"/><br><br>
 
-4.  <img src="Images/Tutorial Images/Services Architecture/4.gif"/>
+4. The first **Participant** we specify is the Service Consumer; therefore, we need to give its role the type "Municipality". As shown in Part 1-2, the Municipality uses the "Eco-Statistics" service. We do not need to include the role name since the **Role Binding** element will do so for us.<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/4.gif"/><br><br>
 
-5.  <img src="Images/Tutorial Images/Services Architecture/5.gif"/>
+5. Now, we want to include the service that this ParticipantParticipant is involved in. To do this, we must navigate to the **SoaML-ServicesArchitecture** library, then drag the **"Internal Service Contract"** element into the **Services Architecture**.<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/5.gif"/><br><br>
 
-6.  <img src="Images/Tutorial Images/Services Architecture/6.gif"/>
+6. Name the **Internal Service Contract** element after the service that it represents, in this case, "Eco-Statistics".<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/6.gif"/><br><br>
 
-7.  <img src="Images/Tutorial Images/Services Architecture/7.gif"/>
+7. Bind the Service Consumer to the Service Contract since it uses the service. Navigate to the **SoaML-ServicesArchitecture** library, then drag the **"Role Binding"** element into the **Services Architecture**. Connect the **Role Binding** line to the **Participant** and **Internal Service Contract**.<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/7.gif"/><br><br>
 
-8.  <img src="Images/Tutorial Images/Services Architecture/8.gif"/>
+8. Since the "Municipality" is a Consumer of the "Eco-Statistics" service, we'll need to label the **Role Binding** element as "Consumer." <br><br>
+   <img src="Images/Tutorial Images/Services Architecture/8.gif"/><br><br>
 
-9.  <img src="Images/Tutorial Images/Services Architecture/9.gif"/>
+9. Add the second ParticipantParticipant to the Services Architecture. This ParticipantParticipant will be the Service Provider. To do so, navigate to the **SoaML-ServicesArchitecture** library, then drag the **"Participant"** element into the **Services Architecture**.<br><br>
+   <img src="Images/Tutorial Images/Services Architecture/9.gif"/><br><br>
 
-10. <img src="Images/Tutorial Images/Services Architecture/10.gif"/>
+10. Give the Service Provider's role a type of "Environmental Agency".<br><br>
+    <img src="Images/Tutorial Images/Services Architecture/10.gif"/><br><br>
 
-11. <img src="Images/Tutorial Images/Services Architecture/11.gif"/>
+11. Bind the Provider to the "Eco-Statistics" service contract the same way we did for the Consumer in step 7\. The Environmental Agency is the Service Provider, so we'll label the role binding as "Provider".<br><br>
+    <img src="Images/Tutorial Images/Services Architecture/11.gif"/><br><br>
 
-12. <img src="Images/Tutorial Images/Services Architecture/12.png"/>
+We have now completed modeling the "Eco-Statistics" service within the "CityCar2Go" Service Network. To model the "Location Awareness" and "Banking" services, we'll have to repeat steps 3-11 and give the **Participant**, **Internal Service Contract**, and **Role Binding** elements the appropriate names and types. Use **Figure 4** (shown at the start of this section) to reference the final diagram.
 
-13. <img src="Images/Tutorial Images/Services Architecture/13.png"/>
+The completed specification of all services and participants within the "CityCar2Go" Service Network, modeled in diagrams.net with the SoaML extension, is shown in **Figure 4** above.
 
-14. <img src="Images/Tutorial Images/Services Architecture/14.png"/>
+### More on Services Architecture Diagrams
+
+At this point, we can see, with the assistance of the Services Architecture Diagram, how the Interface-based and Contract-based approaches to defining Services intertwine with one another. The roles of the Participants are typed and defined by the fact that they implement the **Required Interface** or **Provided Interface** of a **Service Interface** or whether they Implement or use the **Provided Interface** in a **Simple Interface**. Moreover, the binding of each Participant to the Services Architecture is defined by their roles.
+
+#### The Services Architecture for Participants
+
+With a combination of the **SoaML-Participant** library and the **SoaML-Services Architecture Library**, we are able to model the internal structure of a Participant to show how it implements its service ports and how it delegates the fulfillment of its roles within a service contract to other participants. The figure below shows the internal structure of the "Manufacturer" Participant, based on an example from OMG's SoaML Specification.<br><br>
+<img src="Images/Tutorial Images/Services Architecture/13.png"/>
+
+**Figure 5: Internal Architecture of a Manufacturer Participant.**
+
+Figure 5 shows how the Manufacturer Participant delegates the notification of order fulfillments denoted by the **"Order Complete Service"** **Service Contract** to another participant named **"Order Processing"**. The **Order Processing** participant acts as the provider of the **Order Complete Service**, notifying the **"Accounting"** Participant when an order is completed.
+
+Moreover, the Participants **"Accounting"** and **"Order Processing"** are also bound to the **Invoicing Service** and **Ordering Service** respectively, therefore the **"Manufacturer"** participant delegates the fulfillment of the roles of types **"payer"** and **"order processor"** to the **"Accounting"** and **"Order Processing"** participants respectively. Their role types denote that the **"Accounting"** participant is a consumer of the **Invoicing Service** and the **"Order Processing"** participant is a provider of the **Ordering Service**. Finally, the **"Manufacturer"** participant delegates the fulfillment of the **Invoicing Service's** consumer role and the **Ordering Service's** provider role to an external participant under the role type **"Seller"**. <br><br>
+
+We can also represent the **Participant Architecture** as a UML Collaboration Structure with the **Services Architecture** diagram. In this case, we'll have to remove the typing of each role, replacing them with either **Consumer** or **Provider**, and we'll have to give the **Services Architecture** part of the diagram a **realization** association with the ParticipantParticipant we are modeling; to do this, we'll need the **Realization** arrow from the **SoaML-ServicesArchitecture** library and the **Participant Class** (UML class) element from the **SoaML-Participant** library. The figure below shows the **Services Architecture** of the **"Manufacturer"** participant.<br><br>
+<img src="Images/Tutorial Images/Services Architecture/14.png"/>
+
+**Figure 6: The Internal Architecture of a Manufacturer Participant converted from a Participant Architecture composite structure to a Services Architecture collaboration structure.**
 
 # SoaML Templates
