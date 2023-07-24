@@ -286,7 +286,7 @@ To understand what a Service Contract Diagram is, we need to understand the defi
 
 Previously, we have learned how to model 2 out of the 3 ways to specify a service (Simple Interface and Service Interface), now we move on to modeling the Service Contract approach for services. The SoaML Service Contract Diagram models each Participant's roles within the service specified by the UML collaboration. Additionally, SoaML Service Contract Diagrams may be accompanied by the participants that are bound within the Service Contract, which are modeled as interfaces stereotyped by "\<\<Provider\>\>" or "\<\<Consumer\>\>". The accompanying interfaces specify the messages that are exchanged between the participants that are involved in the enactment of the service; the order of the messages exchanged is defined by a UML Sequence Diagram, which usually accompanies a Service Contract Diagram to show the order of interactions between participants in the enactment of a service.
 
-Our SoaML-ServiceContract library provides us with the tools to model a Service as a Service Contract Diagram, specifying the participants involved \(shown inside the Service Contract)\ and their roles. The library also provides us with additional notations that extend the capabilities of a UML Sequence Diagram to model the choreography of the service. Furthermore, other libraries, such as the SoaML-Participant library and SoaML-Interface library, can be utilized to extend the details of the service model by a Service Contract Diagram.
+Our SoaML-ServiceContract library provides us with the tools to model a Service as a Service Contract Diagram, specifying the participants involved \(shown inside the Service Contract\) and their roles. The library also provides us with additional notations that extend the capabilities of a UML Sequence Diagram to model the choreography of the service. Furthermore, other libraries, such as the SoaML-Participant library and SoaML-Interface library, can be utilized to extend the details of the service model by a Service Contract Diagram.
 
 ### SoaML Service Contract Diagram Notations
 
@@ -453,4 +453,36 @@ We can also represent the **Participant Architecture** as a UML Collaboration St
 
 **Figure 6: The Internal Architecture of a Manufacturer Participant converted from a Participant Architecture composite structure to a Services Architecture collaboration structure.**
 
-# SoaML Templates
+# SoaML Templates (SoamL-Templates Library)
+
+## Service Interface Diagram Template
+
+<img src="images/Tutorial Images/Service Interface/template-ServiceInterface.png">
+
+## Participant Diagram Template
+
+<img src="images/Tutorial Images/Service Participant/template-participant.png">
+
+## Service Contract Diagram Template
+
+<img src="images/Tutorial Images/Service Contract/7.png" width="800">
+
+### Service Choreography Template (Dual Party)
+
+---
+
+<img src="images/Tutorial Images/Service Contract/template-choreography-small.png">
+
+### Service Choreography Template (Multi-Party)
+
+---
+
+<img src="Images/Tutorial Images/Service Contract/choreography-multi-party.png">
+
+## Services Architecture Diagram Template
+
+<img src="images/Tutorial Images/Services Architecture/template-architecture.png">
+
+# Video Tutorials
+
+[![SoaML Tutorial Video](https://img.youtube.com/vi/2Z3Z3Y5Z0Zc/0.jpg)](https://www.youtube.com/watch?v=2Z3Z3Y5Z0Zc)
