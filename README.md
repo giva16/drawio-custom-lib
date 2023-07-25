@@ -35,11 +35,6 @@ These libraries provide the user with the ability to specify services from diffe
 
 - [SoaML Templates](#soaml-templates)
 
-- [Video Tutorials](#video-tutorials)
-  - [Introduction to the SoaML Extension for Diagrams.net](#introduction-to-the-soaml-extension-for-diagramsnet)
-  - [Drawing Service Contract Diagrams](#drawing-service-contract-diagrams)
-  - [Drawing Services Architecture Diagrams](#drawing-services-architecture-diagrams)
-
 # What is SoaML?
 
 Service Oriented Architecture Modeling Language (SoaML) is a tool specified and maintained by the <a href="https://www.omg.org/">Object Management Group (OMG)</a> that enables us to model services through the use of modified Unified Modeling Language (UML) notations. In order to fully understand the purpose of SoaML let us be reminded of what goes on in a Service Oriented Architecture (SOA) System. In SOA systems, participants exist in a community, or a distributed computing environment and they use and provide services in order to achieve a common goal which are usually tied to a business process. Participants can be defined as people, organizations, or different components of a system. A service is defined as a value that is exchanged. In order for participants to provide or use services, they must play the role of a service provider or a service consumer.
@@ -482,7 +477,3 @@ We can also represent the **Participant Architecture** as a UML Collaboration St
 ## Services Architecture Diagram Template
 
 <img src="images/Tutorial Images/Services Architecture/template-architecture.png">
-
-# Video Tutorials
-
-[![SoaML Tutorial Video](https://img.youtube.com/vi/2Z3Z3Y5Z0Zc/0.jpg)](https://www.youtube.com/watch?v=2Z3Z3Y5Z0Zc)
