@@ -371,7 +371,7 @@ The service contract we modeled in this tutorial was 1 of the three services inv
 
 ### What is a Services Architecture Diagram?
 
-<img src="images/Tutorial Images/Services Architecture/template-architecture.png" width="800">
+<img src="images/Tutorial Images/Services Architecture/template-architecture.png" width="400">
 
 **Figure 4: Services Architecture Diagram for the "CityCar2Go" Service Network**
 
