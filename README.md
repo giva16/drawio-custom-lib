@@ -448,25 +448,28 @@ We can also represent the **Participant Architecture** as a UML Collaboration St
 
 **Figure 6: The Internal Architecture of a Manufacturer Participant converted from a Participant Architecture composite structure to a Services Architecture collaboration structure.**
 
-# SoaML Templates (SoamL-Templates Library)
+# SoaML Templates
+
+Below are the templates for each of the SoaML Diagrams that we have covered in this tutorial. You can use these templates to start modeling your own SoaML Diagrams in diagrams.net.
+Additionally, we've included a multi party sequence diagram template to show how a party of 3 partiicpants would interact with each other to fulfill a service. The service contract that these participants are involved in would be modelled as a Service Contract Diagram with 3 participants.
 
 ## Service Interface Diagram Template
 
-<img src="images/Tutorial Images/Service Interface/template-ServiceInterface.png">
+<img src="Images/Tutorial Images/Service Interface/template-ServiceInterface.png">
 
 ## Participant Diagram Template
 
-<img src="images/Tutorial Images/Service Participant/template-participant.png">
+<img src="Images/Tutorial Images/Service Participant/template-participant.png">
 
 ## Service Contract Diagram Template
 
-<img src="images/Tutorial Images/Service Contract/7.png" width="800">
+<img src="Images/Tutorial Images/Service Contract/7.png" width="800">
 
 ### Service Choreography Template (Dual Party)
 
 ---
 
-<img src="images/Tutorial Images/Service Contract/template-choreography-small.png">
+<img src="Images/Tutorial Images/Service Contract/template-choreography-small.png">
 
 ### Service Choreography Template (Multi-Party)
 
@@ -476,4 +479,4 @@ We can also represent the **Participant Architecture** as a UML Collaboration St
 
 ## Services Architecture Diagram Template
 
-<img src="images/Tutorial Images/Services Architecture/template-architecture.png">
+<img src="Images/Tutorial Images/Services Architecture/template-architecture.png">
