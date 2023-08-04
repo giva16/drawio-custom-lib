@@ -6,7 +6,7 @@ This extension is a collection of SoaML libraries that enables the user to draw 
 
 The SoaML extension for diagramas.net was developed as part of my bachelor's thesis at the Vrije Universiteit Amsterdam and is specifically designed to provide students of the <a href="https://studiegids.vu.nl/EN/courses/2022-2023/X_405061#/">Service Oriented Design</a> course taught by <a href="https://research.vu.nl/en/persons/patricia-lago">prof. dr. Patricia Lago</a> as part of the <a href="https://vu.nl/en/education/master/computer-science/curriculum?year=1st-year&specialization=software-engineering-and-green-it">Software Engineering and Green IT</a> track for the Master's in Computer Science at Vrije Universiteit Amsterdam with a lightweight open-source tool to draw SoaML diagrams for their course assignments. However, this extension is also open for use and modification by anyone who is interested in modeling SOA systems using the SoaML notations provided.
 
-This extension provides the user with a colleciton of 5 SoaML libraries, with each library containing the elements for a specific SoaML diagram.
+This extension provides the user with a collection of 5 SoaML libraries, with each library containing the elements for a specific SoaML diagram.
 
 The 5 libraries are:
 
